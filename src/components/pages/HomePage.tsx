@@ -88,7 +88,7 @@ const HomePage = () => {
         alternateName: "OYB",
         legalName: "CRSPL",
         url: SITE_URL,
-        logo: `${SITE_URL}/favicon.svg`,
+        logo: `${SITE_URL}/logo.svg`,
         email: "support@oyb.app",
         address: { "@type": "PostalAddress", addressCountry: "SE" },
       },

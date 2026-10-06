@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { LeadFormDialog } from "@/components/LeadFormDialog";
 import { useTranslations, useLocale } from "@/i18n/client";
 
@@ -20,12 +21,9 @@ const Footer = ({ localeOverride }: FooterProps) => {
       <div className="container-wide">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="w-6 h-6 bg-primary rounded flex items-center justify-center">
-              <span className="text-primary-foreground font-semibold text-xs">O</span>
-            </div>
-            <span className="text-sm font-medium text-foreground">OYB</span>
-          </div>
+          <Link href={`/${locale}/`} aria-label="OYB – Own Your Brand">
+            <Image src="/logo.svg" alt="OYB – Own Your Brand" width={112} height={48} className="h-12 w-auto" />
+          </Link>
 
           {/* Links */}
           <nav className="flex items-center gap-6">

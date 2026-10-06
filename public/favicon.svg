@@ -1,4 +1,1 @@
-<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100" height="100" rx="20" fill="hsl(258, 39%, 59%)" />
-  <text x="50" y="50" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="70" fill="#ffffff" text-anchor="middle" dominant-baseline="central" dy="0">H</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 7 156 156"><style>.ink{fill:#7e22ce}@media (prefers-color-scheme:dark){.ink{fill:#c084fc}}</style><defs><mask id="oyb-o" maskUnits="userSpaceOnUse"><circle cx="80" cy="85" r="75" fill="#fff"/><circle cx="80" cy="73" r="28" fill="#000"/><ellipse cx="80" cy="152" rx="39" ry="35" fill="#000"/></mask></defs><circle class="ink" cx="80" cy="85" r="75" mask="url(#oyb-o)"/></svg>

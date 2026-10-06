@@ -6,6 +6,7 @@ import { CalendlyDialog } from "@/components/CalendlyDialog";
 import { useTranslations, useLocale } from "@/i18n/client";
 import localeManifest from "../../public/locales/manifest.json";
 import Link from "next/link";
+import Image from "next/image";
 
 const navItems = ["features", "how", "who", "why", "faq"] as const;
 
@@ -86,11 +87,8 @@ const Header = ({ onNavClick, localeOverride }: HeaderProps) => {
       <div className="container-wide">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href={`/${locale}/`} className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-semibold text-sm">O</span>
-            </div>
-            <span className="text-xl font-semibold text-foreground tracking-tight">OYB</span>
+          <Link href={`/${locale}/`} className="flex items-center" aria-label="OYB – Own Your Brand">
+            <Image src="/logo-mark.svg" alt="OYB – Own Your Brand" width={88} height={30} className="h-7 w-auto" priority />
           </Link>
 
           {/* Navigation */}
