@@ -1,0 +1,625 @@
+{
+  "title": "OYB | Own Your Brand",
+  "description": "Welcome to our website.",
+  "privacy": "Privacy Policy",
+  "terms": "Terms of Service",
+  "hero": {
+    "title": "Turn survey responses into visible, measurable improvement.",
+    "description": "OYB helps organizations turn survey responses into clearer priorities, shared ownership, and visible improvement — giving people a real reason to take part.",
+    "bookDemo": "Book a Demo",
+    "whatWeOffer": "What we offer"
+  },
+  "watch": {
+    "title": "Watch OYB in action",
+    "desc": "OYB is designed to drive real change in your organization. Here's how it works:"
+  },
+  "pricing": {
+    "title": "Get started",
+    "subtitle": "Choose the plan that fits your organization's needs",
+    "readyTitle": "Ready to turn insight into visible progress?",
+    "readyDesc": "Join organizations that are improving through continuous, measurable development. See visible results from day one.",
+    "startJourney": "Start Your Journey",
+    "contactSales": "Contact Us",
+    "custom": "Custom",
+    "oneTime": "One-time payment",
+    "creditsIncluded": "{{count}} credits included monthly",
+    "addTeams": "Add teams {{price}} per team per month",
+    "addMembers": "Add teams members {{desc}}",
+    "configurePlan": "Configure your subscription",
+    "plans": {
+      "corePlan": {
+        "name": "Core Plan",
+        "description": "Everything you need to strengthen organizational capability with AI-based insights and expert guidance.",
+        "cta": "Get started with Core Plan",
+        "features": {
+          "0": "AI-based organizational assessment and analysis",
+          "1": "Up to 10 members included in your first team",
+          "2": "Dashboard with progress tracking",
+          "3": "Assessments with recommendations and support for custom questions",
+          "4": "Workshops and activities with clear structure",
+          "5": "Integrated backlog and action tracking",
+          "6": "Two hours of senior advisory support"
+        }
+      },
+      "fitnessCheck": {
+        "name": "Organization Fitness Check",
+        "description": "Get a clear picture of your organization’s current state, with analysis and recommendations for what to do next.",
+        "cta": "Get a Fitness Check",
+        "features": {
+          "0": "Organizational assessment",
+          "1": "40 respondants included",
+          "2": "Dashboard",
+          "3": "Assessment engine",
+          "4": "AI analysis",
+          "5": "Recommendations"
+        }
+      }
+    },
+    "calculator": {
+      "badge": "Interactive Calculator",
+      "title": "Configure Your Plan",
+      "description": "Our pricing scales with you. Pick your teams and members — your price updates instantly.",
+      "yourPlan": "Your Plan",
+      "currency": "$",
+      "teamsHeader": "Teams",
+      "teamMembersHeader": "Team members",
+      "addTeams": "Add teams",
+      "teamMembersIncluded": "{{count}} team members/team included",
+      "noAdditionalMembers": "No additional members included",
+      "addMembers": "Add team members",
+      "yearlyPrice": "{{price}}/year",
+      "annualBilling": "Save 15% with annual billing",
+      "oneTimePayment": "One-time payment",
+      "cta": "Get Started with {{plan}}",
+      "ctaDisclaimer": "No credit card required • Start your 14-day free trial"
+    }
+  },
+  "auth": {
+    "sign-in": {
+      "title": "Welcome back",
+      "description": "Sign in to continue to your OYB account.",
+      "action": "Sign in",
+      "switchPrompt": "New to OYB?",
+      "switchAction": "Create an account",
+      "success": "Signed in. Your profile has been saved on this device."
+    },
+    "sign-up": {
+      "title": "Create your account",
+      "description": "Use your email address to get started with OYB.",
+      "action": "Create account",
+      "switchPrompt": "Already have an account?",
+      "switchAction": "Sign in",
+      "success": "Account created. Your profile has been saved on this device."
+    },
+    "email": "Email address",
+    "password": "Password",
+    "submitting": "Please wait...",
+    "requestError": "We couldn't complete your request. Please try again.",
+    "tokenError": "The authentication response did not include a JWT.",
+    "profileError": "Your account was authenticated, but we couldn't load your profile."
+  },
+  "workspace": {
+    "title": "Choose a workspace",
+    "description": "Select the workspace you want to use.",
+    "label": "Workspace",
+    "placeholder": "Select a workspace",
+    "loading": "Loading workspaces...",
+    "empty": "No workspaces were found for this account.",
+    "continue": "Continue",
+    "number": "Workspace {number}"
+  },
+  "tools": {
+    "title": "Choose a tool",
+    "description": "Select a tool to continue.",
+    "workspace": "Workspace",
+    "changeWorkspace": "Change workspace",
+    "googleBusinessProfile": {
+      "title": "Google Business Profile",
+      "description": "Manage your Google Business Profile presence."
+    },
+    "instagramAutoResponder": {
+      "title": "Instagram Auto Responder",
+      "description": "Manage automated responses to Instagram messages."
+    }
+  },
+  "toolPage": {
+    "back": "Back to tools",
+    "notFound": "This tool could not be found.",
+    "workspace": "Workspace",
+    "googleBusinessProfile": {
+      "description": "Your Google Business Profile tool is ready to open."
+    },
+    "instagramAutoResponder": {
+      "description": "Your Instagram Auto Responder tool is ready to open."
+    }
+  },
+  "header": {
+    "why": "Why OYB",
+    "how": "How it works",
+    "who": "Who it’s for",
+    "methodology": "Our Method",
+    "pricing": "Pricing and Plans",
+    "signIn": "Sign in",
+    "bookDemo": "Book a Demo",
+    "language": {
+      "en": "English",
+      "sv": "Svenska",
+      "selectAria": "Select language"
+    }
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "contact": "Contact",
+    "copyright": "© 2025 OYB. All rights reserved."
+  },
+  "orbit": {
+    "satellites": {
+      "why": {
+        "title": "Why OYB",
+        "teaser": "When external support creates movement, but not lasting change",
+        "p1": "Many organizations bring in consultants, frameworks, or transformation programs to create movement. These efforts often generate energy and activity while they are in place. But once the support is gone, the energy often fades with it.",
+        "p2": "Organizations now have internal roles that were once filled by consultants, yet what is still often missing is a shared structure and rhythm that keeps learning and progress moving forward.",
+        "p3": "OYB closes that gap through a structured way of working with insight, reflection, and action — helping teams align, learn, and adjust over time.",
+        "readMore": {
+          "en": "Read more about OYB (English)",
+          "sv": "(Swedish)"
+        },
+        "videoTitle": "Why OYB exists",
+        "orgAlt": "OYB Organization"
+      },
+      "how": {
+        "title": "How OYB works",
+        "teaser": "From insight to action — with visible results over time.",
+        "imageAlt": "How OYB works",
+        "steps": {
+          "0": {
+            "title": "Start in the right place",
+            "description": "Begin with one team or several, depending on where you want to create impact."
+          },
+          "1": {
+            "title": "Launch your first assessment",
+            "description": "Gather structured input from the people involved."
+          },
+          "2": {
+            "title": "Invite participation",
+            "description": "Bring teams into the process and capture what matters most."
+          },
+          "3": {
+            "title": "Analyze the results",
+            "description": "OYB helps identify patterns, strengths, and development needs."
+          },
+          "4": {
+            "title": "Prioritize what matters most",
+            "description": "Get tailored recommendations that help turn insight into clear priorities and coordinated action."
+          },
+          "5": {
+            "title": "Move forward with structure",
+            "description": "Use guides and workflows that support focus, follow-through, and continuous development."
+          },
+          "6": {
+            "title": "Make development part of everyday work",
+            "description": "Create regular space for reflection, learning, and improvement in day-to-day work."
+          },
+          "7": {
+            "title": "Create structure for progress",
+            "description": "Turn insight into priorities, priorities into action, and action into real progress."
+          },
+          "8": {
+            "title": "Make direction clear",
+            "description": "Use shared visualizations and materials that help people understand the bigger picture and their role in it."
+          },
+          "9": {
+            "title": "Follow up with a new assessment",
+            "description": "Make progress visible, get new recommendations, and continue from a stronger position."
+          }
+        }
+      },
+      "who": {
+        "title": "Who it’s for",
+        "teaser": "For leaders, teams, and consultants working to create stronger, more sustainable organizations",
+        "intro": "Designed for leaders seeking clarity, teams working in complexity, and consultants who want to create lasting impact together with their clients over time.",
+        "sections": {
+          "leaders": {
+            "title": "Leaders",
+            "desc": "For leaders who want to create better conditions for the organization to perform, improve, and stay aligned over time. OYB helps make priorities clearer, strengthen alignment, and show where friction and progress exist across the organization.",
+            "quote": "Finally, a way to see where we actually stand."
+          },
+          "people": {
+            "title": "People & Culture",
+            "desc": "For People & Culture teams working to strengthen social sustainability, motivation, and long-term engagement. OYB makes patterns in leadership, collaboration, inclusion, role clarity, and everyday working conditions more visible. It helps connect employee experience with practical actions that support well-being, contribution, and long-term performance.",
+            "quote": "It connects our people strategy to daily reality."
+          },
+          "teams": {
+            "title": "Teams",
+            "desc": "For teams working in complex environments where ownership, trust, and coordination matter. OYB helps teams clarify their purpose, responsibilities, and dependencies, making it easier to take initiative, prioritize well, and work with greater autonomy. It also supports a leadership approach focused on enabling progress, removing obstacles, and helping the team perform well together.",
+            "quote": "We know what to focus on next."
+          },
+          "consultants": {
+            "title": "Consultants",
+            "desc": "For consultants who want to strengthen their offer and play a more strategic role in client development. OYB gives consultants a structured way of working with insight, analysis, facilitation, and continuous follow-up. This makes it easier to provide high-value support, guide development over time, and spend less energy on manual administration and process coordination.",
+            "quote": "My work has impact that lasts beyond the engagement."
+          }
+        }
+      },
+      "methodology": {
+        "title": "Our Method",
+        "teaser": "A structured way to turn insight into real improvement over time",
+        "turningTitle": "From insight to visible improvement",
+        "p1": "OYB helps organizations turn insight into clearer priorities, shared understanding, and meaningful improvement over time.",
+        "p2": "Many organizations already collect valuable information through surveys, assessments, and performance indicators. The challenge is rarely a lack of insight. The challenge is turning that input into shared understanding, clear priorities, and improvements that people can actually see. When that does not happen, response rates often decline over time.",
+        "p3": "OYB supports this work by combining recurring assessments, AI-based analysis, and structured team activities. The method is grounded in established research and proven theories and practices in leadership, governance, and organizational learning.",
+        "diagramAlt": "Diagram of the OYB Method",
+        "fiveTitle": "Five areas of organizational capability",
+        "fiveIntro": "To make patterns, friction, and development needs easier to understand, OYB groups organizational capabilities into five areas:",
+        "areas": {
+          "strength": {
+            "title": "Strength",
+            "desc": "the clarity, stability, and foundations that support performance."
+          },
+          "execution": {
+            "title": "Execution",
+            "desc": "the ability to turn priorities into coordinated action and results."
+          },
+          "resilience": {
+            "title": "Resilience",
+            "desc": "the capacity to handle pressure, uncertainty, and setbacks without losing direction."
+          },
+          "agility": {
+            "title": "Agility",
+            "desc": "the ability to learn, adjust, and respond to change."
+          },
+          "endurance": {
+            "title": "Endurance",
+            "desc": "the ability to sustain focus, energy, and development over time."
+          }
+        },
+        "fiveOutro": "Together, these areas help organizations understand where they are strong, where friction exists, and where improvement efforts can make the biggest difference.",
+        "modelTitle": "The OYB Model",
+        "modelIntro": "OYB is a model that helps organizations clarify direction, put strategy into practice, and follow progress over time. It consists of four connected steps:",
+        "model": {
+          "insight": {
+            "title": "Insight",
+            "desc": "The organization gathers and analyzes information about the factors that affect productivity, sustainability, and long-term performance."
+          },
+          "alignment": {
+            "title": "Alignment",
+            "desc": "Leadership and teams build a shared understanding of the direction ahead and the priorities that matter most."
+          },
+          "execution": {
+            "title": "Execution",
+            "desc": "Strategy is translated into priorities, initiatives, and concrete execution."
+          },
+          "learning": {
+            "title": "Learning",
+            "desc": "The organization reflects on progress, captures lessons, and adjusts the work as it moves forward."
+          }
+        },
+        "modelOutro": "Over time, this creates a stronger rhythm for prioritization, collaboration, adaptation, and delivery.",
+        "orgFitnessTitle": "Organizational fitness",
+        "orgFitness": {
+          "p1": "OYB approaches organizational development as a form of collective training.",
+          "p2": "Just as athletes improve through regular training, follow-up, and feedback, organizations strengthen their capabilities by making time for reflection, shared understanding, and action.",
+          "p3": "This strengthens the organization’s ability to understand complexity, make clear strategic choices, work effectively across teams, and deliver meaningful results over time."
+        },
+        "foundationsTitle": "Foundations of Our Method",
+        "foundationsIntro": "OYB’s analysis and ways of working are grounded in established research and proven theories and practices in leadership, governance, and organizational learning. The method draws in particular on four complementary perspectives:",
+        "foundations": {
+          "agile": {
+            "title": "Agile principles",
+            "desc": "Shorter cycles, clear priorities, transparency, and continuous improvement."
+          },
+          "systems": {
+            "title": "Systems Thinking",
+            "desc": "A focus on the connections between structures, behaviors, and outcomes rather than isolated parts"
+          },
+          "collective": {
+            "title": "Collective Intelligence",
+            "desc": "Using the organization’s combined experience, perspectives, and knowledge to build deeper understanding and better decisions together."
+          },
+          "learning": {
+            "title": "Organizational Learning",
+            "desc": "Creating the conditions for reflection, learning, rethinking, and improvement over time."
+          }
+        },
+        "sustainedTitle": "From insight to improvements that last",
+        "sustained": {
+          "p1": "The purpose of OYB is not only to generate insight, but to help organizations turn it into improvements that last over time.",
+          "p2": "By combining research-based analysis, shared reflection, and a structured way of working, OYB helps organizations create clearer priorities, stronger follow-through, and improvements that hold over time."
+        }
+      }
+    },
+    "prototype": "Orbit Prototype"
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy for OYB",
+    "poweredBy": "Powered by Univise AB",
+    "effectiveDateLabel": "Effective date",
+    "effectiveDate": "22 February 2026",
+    "controllerLabel": "Controller",
+    "controller": "Univise AB",
+    "registeredInLabel": "Registered in",
+    "registeredIn": "Sweden",
+    "organizationNumberLabel": "Organization number",
+    "organizationNumber": "559575-3293",
+    "contactLabel": "Contact",
+    "contact": "privacy@oyb.app",
+    "introduction": {
+      "heading": "1. Introduction",
+      "p1": "Univise AB (“we”, “us”) is committed to protecting personal data in accordance with the EU General Data Protection Regulation (GDPR) and applicable data protection laws.",
+      "p2": "We maintain governance, security, and risk management processes designed to ensure the confidentiality, integrity, and availability of personal data processed through the OYB platform.",
+      "p3": "This Privacy Policy describes how we collect, use, store, and protect personal data in connection with:",
+      "list": {
+        "0": "Use of OYB platform",
+        "1": "Use of the OYB platform",
+        "2": "Customer relationships",
+        "3": "Organizational assessments conducted through OYB"
+      }
+    },
+    "roles": {
+      "heading": "2. Roles and Responsibilities",
+      "intro": "Depending on context, OYB acts as:",
+      "controller": {
+        "label": "Data Controller",
+        "text": "for website visitors, customer contacts, and marketing communication"
+      },
+      "processor": {
+        "label": "Data Processor",
+        "text": "when processing personal data on behalf of customer organizations within the OYB platform"
+      },
+      "processorNote": "When acting as Data Processor, processing is governed by a Data Processing Agreement (DPA) in accordance with Article 28 GDPR."
+    },
+    "categories": {
+      "heading": "3. Categories of Personal Data",
+      "account": {
+        "title": "3.1 Account and Identity Data",
+        "list": {
+          "0": "Name",
+          "1": "Email address",
+          "2": "Organizational affiliation",
+          "3": "Role or title"
+        }
+      },
+      "platform": {
+        "title": "3.2 Platform Data",
+        "list": {
+          "0": "Assessment responses",
+          "1": "Organizational metrics",
+          "2": "Strategic inputs",
+          "3": "Uploaded documentation"
+        }
+      },
+      "technical": {
+        "title": "3.3 Technical and Security Data",
+        "list": {
+          "0": "IP address",
+          "1": "Device identifiers",
+          "2": "Access logs",
+          "3": "System usage metadata"
+        }
+      }
+    },
+    "legalBasis": {
+      "heading": "4. Legal Basis for Processing",
+      "intro": "We process personal data based on:",
+      "list": {
+        "0": "Contractual necessity (Art. 6(1)(b))",
+        "1": "Legitimate interests (Art. 6(1)(f))",
+        "2": "Legal obligation (Art. 6(1)(c))",
+        "3": "Consent (Art. 6(1)(a)), where applicable"
+      },
+      "note": "Legitimate interests may include maintaining platform security, preventing fraud, and improving service performance."
+    },
+    "purpose": {
+      "heading": "5. Purpose of Processing",
+      "intro": "Personal data is processed to:",
+      "list": {
+        "0": "Deliver and operate the OYB platform",
+        "1": "Generate AI-based insights",
+        "2": "Provide customer support",
+        "3": "Maintain security and system integrity",
+        "4": "Improve platform performance",
+        "5": "Comply with legal obligations"
+      }
+    },
+    "ai": {
+      "heading": "6. AI-Based Processing and Transparency",
+      "intro": "OYB uses AI-based analytical models to generate structured insights and recommendations on priorities.",
+      "functionalityLabel": "AI functionality:",
+      "list": {
+        "0": "Supports analysis at the organizational level",
+        "1": "Does not perform automated decision-making with legal or similarly significant effects on individuals",
+        "2": "Does not replace human judgment in leadership or governance",
+        "3": "Is not used to determine employment or contractual decisions"
+      },
+      "conclusion": "AI outputs are advisory and should be interpreted by humans."
+    },
+    "security": {
+      "heading": "7. Information Security",
+      "intro": "OYB maintains technical and organizational security measures aligned with recognized information security principles, including those reflected in ISO/IEC 27001 and Article 32 of the GDPR.",
+      "organizational": {
+        "title": "7.1 Organizational Measures",
+        "list": {
+          "0": "Defined access control policies",
+          "1": "Role-based access manangement",
+          "2": "Confidentiality agreements",
+          "3": "Internal information security governance",
+          "4": "Vendor risk management procedures"
+        }
+      },
+      "technical": {
+        "title": "7.2 Technical Measures",
+        "list": {
+          "0": "Encryption in transit (TLS)",
+          "1": "Secure cloud infrastructure within the EU (Google Cloud Platform)",
+          "2": "Logical separation of customer environments",
+          "3": "Access logging and monitoring",
+          "4": "Regular backups",
+          "5": "Vulnerability management"
+        }
+      },
+      "development": {
+        "title": "7.3 Secure Development Practices",
+        "list": {
+          "0": "Controlled code deployment processes",
+          "1": "Separation of development, staging, and production environments",
+          "2": "Restricted access to production systems",
+          "3": "Security monitoring"
+        }
+      }
+    },
+    "hosting": {
+      "heading": "8. Hosting and Data Location",
+      "p1": "All customer platform data is stored within the European Union using Google Cloud Platform (GCP) infrastructure located in EU data centers.",
+      "p2": "Data is not intentionally transferred outside the EU/EEA unless appropriate safeguards are in place."
+    },
+    "subprocessors": {
+      "heading": "9. Sub-Processors",
+      "intro": "OYB engages carefully selected sub-processors for infrastructure and service delivery, including:",
+      "list": {
+        "0": "Google Cloud Platform (EU infrastructure)",
+        "1": "Infrastructure and security service providers",
+        "2": "Analytics providers (where applicable)"
+      },
+      "note": "All sub-processors are subject to contractual data protection and confidentiality obligations. OYB maintains oversight of sub-processor compliance."
+    },
+    "retention": {
+      "heading": "10. Data Retention",
+      "intro": "Personal data is retained:",
+      "list": {
+        "0": "For the duration of an active subscription",
+        "1": "For 30 days following termination to allow data export",
+        "2": "In backup copies retained for up to 90 days",
+        "3": "For longer where required by law"
+      },
+      "note": "Once the applicable retention period has expired, data is securely deleted or anonymized."
+    },
+    "incident": {
+      "heading": "11. Incident Management and Breach Notification",
+      "intro": "OYB maintains internal procedures for incident detection, response, and mitigation.",
+      "notice": "In the event of a personal data breach affecting customer data:",
+      "list": {
+        "0": "Customers will be notified without undue delay",
+        "1": "Notification will comply with GDPR Article 33 and 34 requirements",
+        "2": "Appropriate remediation measures will be taken"
+      }
+    },
+    "transfers": {
+      "heading": "12. International Transfers",
+      "intro": "If personal data is transferred outside the EU/EEA, we ensure appropriate safeguards are in place, including:",
+      "list": {
+        "0": "EU Standard Contractual Clauses",
+        "1": "Adequacy decisions",
+        "2": "Other equivalent lawful transfer mechanisms"
+      }
+    },
+    "rights": {
+      "heading": "13. Data Subject Rights",
+      "intro": "Individuals have the right to:",
+      "list": {
+        "0": "Access their personal data",
+        "1": "Request correction of inaccurate data",
+        "2": "Request erasure",
+        "3": "Request restriction of processing",
+        "4": "Receive their data for portability",
+        "5": "Object to processing"
+      },
+      "note": "Requests may be submitted to privacy@oyb.app. Individuals may lodge complaints with the Swedish Authority for Privacy Protection (IMY)."
+    },
+    "cookies": {
+      "heading": "14. Cookies",
+      "p1": "OYB uses cookies and similar technologies. Please refer to our Cookie Policy for more information."
+    },
+    "updates": {
+      "heading": "15. Updates to This Policy",
+      "p1": "We may update this Privacy Policy to reflect changes in legal, technical, or operational requirements.",
+      "p2": "The latest version will always be available at oyb.app."
+    }
+  },
+  "termsOfService": {
+    "title": "Terms of Use – OYB",
+    "effectiveDateLabel": "Effective date",
+    "effectiveDate": "20 February 2025",
+    "productLabel": "Product",
+    "product": "OYB",
+    "companyLabel": "Company",
+    "company": "Univise AB",
+    "organizationNumberLabel": "Company registration number",
+    "organizationNumber": "559575-3293",
+    "registeredInLabel": "Registered in",
+    "registeredIn": "Sweden",
+    "contactLabel": "Contact",
+    "contact": "support@oyb.app",
+    "introduction": {
+      "heading": "1. Introduction",
+      "p1": "These Terms govern access to and use of oyb.app. By accessing this website, you agree to these Terms."
+    },
+    "intellectualProperty": {
+      "heading": "2. Intellectual Property",
+      "p1": "All content on this website, including text, design, trademarks, methodology descriptions, graphics, and software descriptions, is the property of Univise AB unless otherwise stated.",
+      "p2": "No content may be reproduced, distributed, or modified without prior written consent."
+    },
+    "informationalNature": {
+      "heading": "3. Informational Nature",
+      "p1": "Descriptions of the OYB platform are provided for informational purposes only and do not constitute guarantees of specific business, organizational, or performance outcomes."
+    },
+    "recommendations": {
+      "heading": "4. Nature of Information and Recommendations",
+      "p1": "The content on this website and in the OYB platform is provided for informational and decision-support purposes. AI-generated insights and recommendations are advisory in nature. Final decisions and implementation remain the responsibility of the customer organization."
+    },
+    "liability": {
+      "heading": "5. Limitation of Liability",
+      "p1": "Univise AB is not liable for indirect, incidental, or consequential damages arising from the use of this website."
+    },
+    "governingLaw": {
+      "heading": "6. Governing Law",
+      "p1": "These Terms are governed by Swedish law. Any disputes shall be resolved in Swedish courts."
+    }
+  },
+  "leadForm": {
+    "title": "Get in touch",
+    "description": "Tell us about your organizational needs and we'll be in touch soon.",
+    "label": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "companyName": "Company Name",
+      "phone": "Phone Number",
+      "lookingFor": "What are you looking for?"
+    },
+    "placeholder": {
+      "firstName": "Alex",
+      "lastName": "Taylor",
+      "email": "alex@example.com",
+      "companyName": "Example Inc.",
+      "phone": "+1 (555) 000-0000",
+      "lookingFor": "Tell us briefly what you need help with......"
+    },
+    "validation": {
+      "firstName": "First name is required",
+      "lastName": "Last name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "companyName": "Organization is required",
+      "phone": "Phone number is required",
+      "lookingFor": "Please tell us briefly what you need help with"
+    },
+    "toast": {
+      "successTitle": "Thank you!",
+      "successDesc": "We’ve received your request and will be in touch soon.",
+      "errorTitle": "Something went wrong",
+      "errorDesc": "We couldn’t submit the form. Please try again or contact us directly."
+    },
+    "submit": "Submit",
+    "sending": "Sending..."
+  },
+  "calendly": {
+    "title": "Book a demo",
+    "closeAria": "Close",
+    "iframeTitle": "Book a demo in Calendly"
+  },
+  "advisors": {
+    "title": "Featured Advisors",
+    "description": "Discover expert advisors and their professional insights."
+  }
+}

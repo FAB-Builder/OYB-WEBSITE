@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "fab-builder-production"
+  },
+  "targets": {
+    "fab-builder-production": {
+      "hosting": {
+        "oyb-website": [
+          "oyb-website"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

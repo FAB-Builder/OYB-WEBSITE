@@ -1,0 +1,625 @@
+{
+  "title": "OYB | Own Your Brand",
+  "description": "Välkommen till vår webbplats.",
+  "privacy": "Integritetspolicy",
+  "terms": "Användarvillkor",
+  "hero": {
+    "title": "Låt dina enkäter leda till mätbar förändring.",
+    "description": "OYB ersätter traditionella medarbetarundersökningar med en plattform för förändringsledning och organisationsutveckling — och ger dina medarbetare en verklig anledning att svara, eftersom deras svar driver synliga åtgärder.",
+    "bookDemo": "Boka en demo",
+    "whatWeOffer": "Vårt erbjudande"
+  },
+  "watch": {
+    "title": "Se OYB i action",
+    "desc": "OYB är utformad för att skapa verklig förändring i din organisation. Så här fungerar det:"
+  },
+  "pricing": {
+    "title": "Kom igång",
+    "subtitle": "Välj det abonnemang som passar din organisations behov",
+    "readyTitle": "Redo att ta er organisatoriska förmåga till nästa nivå?",
+    "readyDesc": "Bli en av de organisationer som stärker sin förmåga genom kontinuerlig och mätbar utveckling. Få synliga resultat från dag ett.",
+    "startJourney": "Starta din resa",
+    "contactSales": "Kontakta oss",
+    "custom": "Anpassad",
+    "oneTime": "Engångsbetalning",
+    "creditsIncluded": "{{count}} poäng inkluderade per månad",
+    "addTeams": "Lägg till team för {{price}}/team per månad",
+    "addMembers": "Lägg till teammedlemmar {{desc}}",
+    "configurePlan": "Konfigurera ditt abonnemang",
+    "plans": {
+      "corePlan": {
+        "name": "Basabonnemang",
+        "description": "Allt du behöver för att stärka organisationens förmåga med AI-stödda insikter och kvalificerad vägledning.",
+        "cta": "Kom igång med Basabonnemang",
+        "features": {
+          "0": "AI-baserad organisationsutvärdering och analys",
+          "1": "Ett team med upp till 10 medlemmar ingår",
+          "2": "Omfattande dashboard med uppföljning av framsteg",
+          "3": "Utvärderingar som kan anpassas,  med utförliga rekommendationer",
+          "4": "Bibliotek med workshops och aktiviteter med gränssnitt för att strukturera indata",
+          "5": "Integrerad backlogg och uppföljning av aktiviteter",
+          "6": "Två timmar rådgivning"
+        }
+      },
+      "fitnessCheck": {
+        "name": "Fitness Check för organisationen",
+        "description": "Få en samlad analys av organisationens nuläge, med insikter och rekommendationer för nästa steg.",
+        "cta": "Beställ en organisationsanalys",
+        "features": {
+          "0": "Organisationsutvärdering",
+          "1": "40 respondenter ingår",
+          "2": "Dashboard",
+          "3": "Analysmotor",
+          "4": "AI-baserad analys",
+          "5": "Rekommendationer"
+        }
+      }
+    },
+    "calculator": {
+      "badge": "Interaktiv kostnadsberäkning",
+      "title": "Konfigurera ditt abonnemang",
+      "description": "Priset anpassas efter hur många team och medlemmar ni vill ha. Välj antal team och medlemmar så ser du priset direkt.",
+      "yourPlan": "Ditt abonnemang",
+      "currency": "SEK",
+      "teamsHeader": "Team",
+      "teamMembersHeader": "Teammedlemmar",
+      "addTeams": "Lägg till team",
+      "teamMembersIncluded": "{{count}} teammedlemmar/team ingår",
+      "noAdditionalMembers": "Inga extra medlemmar ingår",
+      "addMembers": "Lägg till teammedlemmar",
+      "yearlyPrice": "{{price}}/år",
+      "annualBilling": "Spara 15% med årsbetalning",
+      "oneTimePayment": "Engångsbetalning",
+      "cta": "Kom igång med {{plan}}",
+      "ctaDisclaimer": "Inget kreditkort krävs • Starta din 14-dagars kostnadsfria provperiod"
+    }
+  },
+  "auth": {
+    "sign-in": {
+      "title": "Välkommen tillbaka",
+      "description": "Logga in för att fortsätta till ditt OYB-konto.",
+      "action": "Logga in",
+      "switchPrompt": "Ny på OYB?",
+      "switchAction": "Skapa ett konto",
+      "success": "Du är inloggad. Din profil har sparats på den här enheten."
+    },
+    "sign-up": {
+      "title": "Skapa ditt konto",
+      "description": "Kom igång med OYB med din e-postadress.",
+      "action": "Skapa konto",
+      "switchPrompt": "Har du redan ett konto?",
+      "switchAction": "Logga in",
+      "success": "Kontot har skapats. Din profil har sparats på den här enheten."
+    },
+    "email": "E-postadress",
+    "password": "Lösenord",
+    "submitting": "Vänta...",
+    "requestError": "Begäran kunde inte slutföras. Försök igen.",
+    "tokenError": "Autentiseringssvaret innehöll ingen JWT.",
+    "profileError": "Kontot autentiserades, men profilen kunde inte hämtas."
+  },
+  "workspace": {
+    "title": "Välj en arbetsyta",
+    "description": "Välj arbetsytan du vill använda.",
+    "label": "Arbetsyta",
+    "placeholder": "Välj en arbetsyta",
+    "loading": "Laddar arbetsytor...",
+    "empty": "Det finns inga arbetsytor för det här kontot.",
+    "continue": "Fortsätt",
+    "number": "Arbetsyta {number}"
+  },
+  "tools": {
+    "title": "Välj ett verktyg",
+    "description": "Välj ett verktyg för att fortsätta.",
+    "workspace": "Arbetsyta",
+    "changeWorkspace": "Byt arbetsyta",
+    "googleBusinessProfile": {
+      "title": "Google Business Profile",
+      "description": "Hantera din närvaro på Google Business Profile."
+    },
+    "instagramAutoResponder": {
+      "title": "Instagram Auto Responder",
+      "description": "Hantera automatiska svar på Instagram-meddelanden."
+    }
+  },
+  "toolPage": {
+    "back": "Tillbaka till verktyg",
+    "notFound": "Det här verktyget kunde inte hittas.",
+    "workspace": "Arbetsyta",
+    "googleBusinessProfile": {
+      "description": "Ditt Google Business Profile-verktyg är redo att öppnas."
+    },
+    "instagramAutoResponder": {
+      "description": "Ditt Instagram Auto Responder-verktyg är redo att öppnas."
+    }
+  },
+  "header": {
+    "why": "Varför OYB",
+    "how": "Så fungerar det",
+    "who": "För vem",
+    "methodology": "Vår metod",
+    "pricing": "Våra abonnemang",
+    "signIn": "Logga in",
+    "bookDemo": "Boka en demo",
+    "language": {
+      "en": "English",
+      "sv": "Svenska",
+      "selectAria": "Välj språk"
+    }
+  },
+  "footer": {
+    "privacy": "Integritet",
+    "terms": "Användarvillkor",
+    "contact": "Kontakt",
+    "copyright": "© 2025 OYB. Alla rättigheter förbehålls."
+  },
+  "orbit": {
+    "satellites": {
+      "why": {
+        "title": "Varför OYB",
+        "teaser": "När extern hjälp inte leder till varaktig förändring",
+        "p1": "Många organisationer tar in extern hjälp för att skapa rörelse — genom ramverk, program eller expertledda förändringsinsatser som skapar aktivitet medan de pågår. Men när insatsen avslutas avtar ofta också energin.",
+        "p2": "I dag finns interna roller som tidigare ofta fylldes av konsulter. Det som ändå ofta saknas är en gemensam struktur och rytm som håller lärande, prioritering och framsteg levande över tid.",
+        "p3": "OYB fyller det glappet genom ett strukturerat arbetssätt för insikt, reflektion och handling som hjälper team att skapa samsyn, lära, prioritera och driva utveckling framåt över tid.",
+        "readMore": {
+          "en": "Läs mer om OYB (English)",
+          "sv": "(Swedish)"
+        },
+        "videoTitle": "Varför OYB",
+        "orgAlt": "OYB Organisation"
+      },
+      "how": {
+        "title": "Så fungerar det",
+        "teaser": "Från insikter till handling och synliga resultat över tid.",
+        "imageAlt": "Så fungerar det",
+        "steps": {
+          "0": {
+            "title": "Börja i rätt skala",
+            "description": "Börja med ett team eller flera, beroende på var ni vill skapa rörelse."
+          },
+          "1": {
+            "title": "Starta er första utvärdering",
+            "description": "Samla in strukturerade svar från de personer som deltar."
+          },
+          "2": {
+            "title": "Bjud in deltagare",
+            "description": "Involvera teamen i processsen och fånga upp det som är viktigast."
+          },
+          "3": {
+            "title": "Analysera resultaten",
+            "description": "OYB hjälper er att se mönster, styrkor och utvecklingsbehov."
+          },
+          "4": {
+            "title": "Prioritera det som gör störst skillnad",
+            "description": "Få rekommendationer som hjälper er att omsätta insikter i tydliga prioriteringar och samordnad handling."
+          },
+          "5": {
+            "title": "Arbeta vidare på ett strukturerat sätt",
+            "description": "Använd guider och arbetsflöden som stödjer fokus, genomförande och kontinuerlig utveckling."
+          },
+          "6": {
+            "title": "Låt reflektion, lärande och utveckling bli en del av vardagen",
+            "description": "Skapa utrymme för att stanna upp, lära och utvecklas i det dagliga arbetet."
+          },
+          "7": {
+            "title": "Skapa struktur i framstegen",
+            "description": "Gör insikter till prioriteringar, prioriteringar till handling och handling till verkliga framsteg."
+          },
+          "8": {
+            "title": "Gör riktningen tydlig",
+            "description": "Använd gemensamma visualiseringar som gör det tydligare vad som gäller, vart ni är på väg och vilken roll olika delar av organisationen har."
+          },
+          "9": {
+            "title": "Följ upp med en ny utvärdering",
+            "description": "Gör framsteg synliga, få nya rekommendationer och fortsätt utvecklingen från en starkare position."
+          }
+        }
+      },
+      "who": {
+        "title": "För vem",
+        "teaser": "För ledare och team som vill stärka förmågan till hållbar förändring",
+        "intro": "Utformat för ledare som söker tydlighet, team som verkar i komplexa sammanhang och konsulter som vill skapa varaktig effekt tillsammans med sina kunder över tid.",
+        "sections": {
+          "leaders": {
+            "title": "Ledare",
+            "desc": "För ledare som vill få bättre grepp om vad organisationen behöver fokusera på. OYB hjälper till att synliggöra vad som fungerar, vad som skaver och vad som är viktigast att ta vidare.",
+            "quote": "Äntligen ett sätt att se var vi faktiskt står."
+          },
+          "people": {
+            "title": "People & Culture",
+            "desc": "För People & Culture-team som vill stärka social hållbarhet, motivation och långsiktigt engagemang. OYB synliggör mönster i ledarskap, samarbete, inkludering, rolltydlighet och vardagliga arbetsvillkor.",
+            "quote": "Det kopplar vår HR-strategi till den dagliga verkligheten."
+          },
+          "teams": {
+            "title": "Team",
+            "desc": "För team som arbetar i komplexa miljöer där ägarskap, tillit och samordning är avgörande. OYB hjälper team att förtydliga syfte, ansvar and beroenden, så att det blir lättare att ta initiativ, prioritera rätt och arbeta med större självständighet.",
+            "quote": "Vi vet vad vi ska fokusera på härnäst."
+          },
+          "consultants": {
+            "title": "Konsulter",
+            "desc": "För konsulter som vill stärka sitt erbjudande och skapa varaktig effekt tillsammans med sina kunder över tid. OYB ger konsulter ett strukturerat arbetssätt för insikt, analys, facilitering och kontinuerlig uppföljning.",
+            "quote": "Mitt arbete gör skillnad även efter att uppdraget är slut."
+          }
+        }
+      },
+      "methodology": {
+        "title": "Vår metod",
+        "teaser": "Ett strukturerat tillvägångssätt för organisatorisk förmåga",
+        "turningTitle": "Omvandla organisatorisk insikt till mätbara förbättringar",
+        "p1": "OYB hjälper organisationer att omvandla insikt till värdeskapande genom att skapa utrymme för reflektion, samsyn, genomförande och lärande.",
+        "p2": "Många organisationer samlar redan in värdefull information genom exempelvis enkäter. Problemet är sällan brist på insikter, utan att få dem att leda vidare till gemensam förståelse, tydliga prioriteringar och synliga förbättringar. När det inte sker minskar ofta också viljan att svara över tid.",
+        "p3": "OYB är utvecklat för att bryta det mönstret. Genom att kombinera återkommande utvärderingar, AI-stödd analys och strukturerade teamaktiviteter hjälper OYB organisationer att gå från underlag till prioritering, handling och uppföljning. Metoden bygger på etablerad forskning och beprövade arbetssätt inom organisationsutveckling.",
+        "diagramAlt": "Diagram över OYBs metod",
+        "fiveTitle": "Fem förmågeområden",
+        "fiveIntro": "För att göra styrkor, friktion och utvecklingsbehov tydligare grupperar OYB organisatoriska mönster och förmågor i fem områden:",
+        "areas": {
+          "strength": {
+            "title": "Styrka",
+            "desc": "tydlighet, stabilitet och grunder som stödjer prestation."
+          },
+          "execution": {
+            "title": "Genomförande",
+            "desc": "förmågan att omsätta prioriteringar i handling och till resultat."
+          },
+          "resilience": {
+            "title": "Motståndskraft",
+            "desc": "förmågan att hantera tryck, osäkerhet och motgångar utan att tappa riktning."
+          },
+          "agility": {
+            "title": "Agilitet",
+            "desc": "förmågan att lära, justera och agera när förutsättningarna förändras."
+          },
+          "endurance": {
+            "title": "Uthållighet",
+            "desc": "förmågan att hålla fokus, energi och förbättringsarbete levande över tid."
+          }
+        },
+        "fiveOutro": "Tillsammans hjälper dessa områden organisationer att förstå var de är starka, var det skaver och var utvecklingsinsatser kan göra störst skillnad.",
+        "modelTitle": "OYB-modellen",
+        "modelIntro": "OYB är en model som hjälper organisationer att tydliggöra riktning, omsätta strategi i praktiken och följa upp utvecklingen över tid. Modellen består av fyra sammanhängande steg:",
+        "model": {
+          "insight": {
+            "title": "Insikt",
+            "desc": "Organisationen samlar in och analyserar information om vad som påverkar produktivitet, samarbete, hållbarhet och långsiktig utveckling."
+          },
+          "alignment": {
+            "title": "Samsyn",
+            "desc": "Ledning och team skapar en gemensam förståelse för riktningen framåt och vilka prioriteringar som behöver göras."
+          },
+          "execution": {
+            "title": "Genomförande",
+            "desc": "Strategi omsätts i prioriteringar, initiativ och konkret genomförande."
+          },
+          "learning": {
+            "title": "Lärande",
+            "desc": "Organisationen följer upp, drar lärdomar och justerar arbetet vidare."
+          }
+        },
+        "modelOutro": "Med tiden skapas en starkare rytm för prioritering, samarbete, anpassning och leverans.",
+        "orgFitnessTitle": "Organisatorisk förmåga",
+        "orgFitness": {
+          "p1": "OYB ser organisatorisk utveckling som en form av kollektiv träning.",
+          "p2": "Precis som idrottare förbättras genom upprepade cykler av testning, träning och feedback, stärker organisationer sina förmågor genom återkommande cykler av reflektion, samsyn och samordnad handling.",
+          "p3": "Detta bygger organisatorisk förmåga — förmågan att förstå komplexitet, göra tydliga strategiska val, samordna team effektivt och konsekvent leverera värdeskapande resultat."
+        },
+        "foundationsTitle": "Grunder för vår metod",
+        "foundationsIntro": "OYBs analyser och arbetssätt bygger på etablerad forskning och beprövade teorier och metoder inom ledarskap, styrning och organisatoriskt lärande. Metoden hämtar särskilt stöd från fyra kompletterande perspektiv:",
+        "foundations": {
+          "agile": {
+            "title": "Agila principer",
+            "desc": "Kortare arbetscykler, tydligare prioriteringar, transparens och kontinuerlig förbättring."
+          },
+          "systems": {
+            "title": "Systemtänkande",
+            "desc": "Fokus på sambanden mellan strukturer, beteenden och resultat, snarare än på enskilda delar."
+          },
+          "collective": {
+            "title": "Kollektiv intelligens",
+            "desc": "Att använda organisationens samlade erfarenheter, perspektiv och kunskap för att skapa djupare förståelse och bättre beslut tillsammans."
+          },
+          "learning": {
+            "title": "Organisatoriskt lärande",
+            "desc": "Att skapa förutsättningar för reflektion, lärande, omprövning och förbättring över tid."
+          }
+        },
+        "sustainedTitle": "Från insikt till förbättringar som håller",
+        "sustained": {
+          "p1": "Syftet med OYB är inte bara att skapa insikter, utan att hjälpa organisationer att omsätta dem i förbättringar som håller över tid.",
+          "p2": "Genom att kombinera forskningsbaserad analys, gemensam reflektion och ett strukturerat arbetssätt hjälper OYB organisationer att skapa tydlighet, hålla riktning och få förbättringar att hålla över tid."
+        }
+      }
+    },
+    "prototype": "Orbit Prototyp"
+  },
+  "privacyPolicy": {
+    "title": "Integritetspolicy för OYB",
+    "poweredBy": "Tillhandahålls av Univise AB",
+    "effectiveDateLabel": "Giltigt från",
+    "effectiveDate": "22 februari 2026",
+    "controllerLabel": "Personuppgiftsansvarig",
+    "controller": "Univise AB",
+    "registeredInLabel": "Registrerad i",
+    "registeredIn": "Sverige",
+    "organizationNumberLabel": "Organisationsnummer",
+    "organizationNumber": "559575-3293",
+    "contactLabel": "Kontakt",
+    "contact": "privacy@oyb.app",
+    "introduction": {
+      "heading": "1. Inledning",
+      "p1": "Univise AB (”vi”, ”oss”) värnar om skyddet av personuppgifter och behandlar dem i enlighet med EU:s allmänna dataskyddsförordning (GDPR) och tillämplig dataskyddslagstiftning.",
+      "p2": "Vi har styrnings-, säkerhets- och riskhanteringsprocesser på plats för att säkerställa konfidentialitet, integritet och tillgänglighet för personuppgifter som behandlas via OYB-plattformen.",
+      "p3": "Denna integritetspolicy beskriver hur vi samlar in, använder, lagrar och skyddar personuppgifter i samband med:",
+      "list": {
+        "0": "Användning av oyb.app",
+        "1": "Användning av OYB-plattformen",
+        "2": "Kundrelationer",
+        "3": "Organisationsutvärderingar som genomförs via OYB"
+      }
+    },
+    "roles": {
+      "heading": "2. Roller och ansvar",
+      "intro": "Beroende på sammanhang agerar OYB som:",
+      "controller": {
+        "label": "Personuppgiftsansvarig",
+        "text": "for website visitors, customer contacts, and marketing communication"
+      },
+      "processor": {
+        "label": "Personuppgiftsbiträde",
+        "text": "när personuppgifter behandlas för kundorganisationers räkning inom OYB-plattformen"
+      },
+      "processorNote": "När vi agerar som personuppgiftsbiträde regleras behandlingen av ett personuppgiftsbiträdesavtal (PUB) i enlighet med artikel 28 GDPR."
+    },
+    "categories": {
+      "heading": "3. Kategorier av personuppgifter",
+      "account": {
+        "title": "3.1 Konto- och identitetsuppgifter",
+        "list": {
+          "0": "Namn",
+          "1": "E-postadress",
+          "2": "Organisationstillhörighet",
+          "3": "Roll eller titel"
+        }
+      },
+      "platform": {
+        "title": "3.2 Plattformdata",
+        "list": {
+          "0": "Svarsdata från utvärderingar",
+          "1": "Organisatoriska mått",
+          "2": "Strategiska indata",
+          "3": "Uppladdad dokumentation"
+        }
+      },
+      "technical": {
+        "title": "3.3 Teknisk och säkerhetsrelaterad data",
+        "list": {
+          "0": "IP-adress",
+          "1": "Enhetsidentifierare",
+          "2": "Åtkomstloggar",
+          "3": "Metadata om systemanvändning"
+        }
+      }
+    },
+    "legalBasis": {
+      "heading": "4. Rättslig grund för behandling",
+      "intro": "Vi behandlar personuppgifter på följande rättsliga grunder:",
+      "list": {
+        "0": "Avtalsenlig nödvändighet (Art. 6.1 b)",
+        "1": "Berättigade intressen (Art. 6.1 f)",
+        "2": "Rättslig förpliktelse (Art. 6.1 c)",
+        "3": "Samtycke (Art. 6.1 a), när tillämpligt"
+      },
+      "note": "Berättigade intressen kan till exempel omfatta att upprätthålla plattformens säkerhet, förebygga bedrägerier och förbättra tjänstens prestanda."
+    },
+    "purpose": {
+      "heading": "5. Syfte med behandlingen",
+      "intro": "Personuppgifter behandlas för att:",
+      "list": {
+        "0": "Leverera och driva OYB-plattformen",
+        "1": "Generera AI-baserade insikter",
+        "2": "Erbjuda kundsupport",
+        "3": "Bibehålla säkerhet och systemintegritet",
+        "4": "Förbättra plattformens prestanda",
+        "5": "Uppfylla rättsliga förpliktelser"
+      }
+    },
+    "ai": {
+      "heading": "6. AI-baserad behandling och transparens",
+      "intro": "OYB använder AI-baserade analytiska modeller för att generera strukturerade insikter och prioriteringsrekommendationer.",
+      "functionalityLabel": "AI-funktionalitet:",
+      "list": {
+        "0": "Stödjer analys på organisationsnivå",
+        "1": "Utför inte automatiserat beslutsfattande med rättsliga eller liknande betydande effekter för enskilda",
+        "2": "Ersätter inte mänskliga bedömningar i ledning eller styrning",
+        "3": "Används inte för att fatta beslut om anställning eller avtal"
+      },
+      "conclusion": "AI-resultat är rådgivande och bör alltid tolkas av människor."
+    },
+    "security": {
+      "heading": "7. Informationssäkerhet",
+      "intro": "OYB tillämpar tekniska och organisatoriska säkerhetsåtgärder i linje med etablerade informationssäkerhetsprinciper, inklusive principer som kommer till uttryck i ISO/IEC 27001 och artikel 32 i GDPR.",
+      "organizational": {
+        "title": "7.1 Organisatoriska åtgärder",
+        "list": {
+          "0": "Tydligt definierade policyer för åtkomstkontroll",
+          "1": "Rollbaserad behörighetsstyrning",
+          "2": "Sekretessavtal",
+          "3": "Intern styrning av informationssäkerhet",
+          "4": "Rutiner för hantering av leverantörsrisker"
+        }
+      },
+      "technical": {
+        "title": "7.2 Tekniska åtgärder",
+        "list": {
+          "0": "Kryptering vid överföring (TLS)",
+          "1": "Säker molninfrastruktur inom EU (Google Cloud Platform)",
+          "2": "Logisk separering av kundmiljöer",
+          "3": "Åtkomstloggning och övervakning",
+          "4": "Regelbundna säkerhetskopieringar",
+          "5": "Sårbarhetshantering"
+        }
+      },
+      "development": {
+        "title": "7.3 Säker utvecklingspraxis",
+        "list": {
+          "0": "Kontrollerade kodändringar vid driftsättning",
+          "1": "Tydlig åtskillnad mellan utvecklings-, test- och produktionsmiljöer",
+          "2": "Begränsad åtkomst till produktionssystem",
+          "3": "Säkerhetsövervakning"
+        }
+      }
+    },
+    "hosting": {
+      "heading": "8. Hosting och datalagring",
+      "p1": "All kunddata i plattformen lagras inom Europeiska unionen i Google Cloud Platforms (GCP) infrastruktur, i datacenter inom EU.",
+      "p2": "Personuppgifter överförs inte avsiktligt utanför EU/EES, om det inte finns lämpliga skyddsåtgärder på plats."
+    },
+    "subprocessors": {
+      "heading": "9. Underbiträden",
+      "intro": "OYB anlitar noggrant utvalda underbiträden för infrastruktur och tjänsteleverans, inklusive:",
+      "list": {
+        "0": "Google Cloud Platform (EU-infrastruktur)",
+        "1": "Leverantörer av infrastruktur- och säkerhetstjänster",
+        "2": "Analysleverantörer, där det är tillämpligt"
+      },
+      "note": "Alla underbiträden omfattas av avtalade krav på dataskydd och sekretess. OYB ansvarar för uppföljning av underbiträdenas efterlevnad."
+    },
+    "retention": {
+      "heading": "10. Lagringstid",
+      "intro": "Personuppgifter lagras:",
+      "list": {
+        "0": "Så länge prenumerationen är aktiv",
+        "1": "I 30 dagar efter uppsägning för att möjliggöra export av data",
+        "2": "I säkerhetskopior i upp till 90 dias",
+        "3": "Under längre tid om det krävs enligt lag"
+      },
+      "note": "När lagringstiden har löpt ut raderas eller anonymiseras uppgifterna på ett säkert sätt."
+    },
+    "incident": {
+      "heading": "11. Incidenthantering och rapportering av personuppgiftsincidenter",
+      "intro": "OYB har interna rutiner för att upptäcka, hantera och begränsa incidenter.",
+      "notice": "Vid en personuppgiftsincident som påverkar kunddata:",
+      "list": {
+        "0": "Kunder informeras utan onödigt dröjsmål",
+        "1": "Information lämnas i enlighet med artikel 33 och 34 i GDPR",
+        "2": "Lämpliga åtgärder vidtas"
+      }
+    },
+    "transfers": {
+      "heading": "12. Internationella överföringar",
+      "intro": "Om personuppgifter överförs utanför EU/EES säkerställer vi lämpliga skyddsåtgärder, inklusive:",
+      "list": {
+        "0": "EU-kommissionens standardavtalsklausuler",
+        "1": "Adekvansbeslut",
+        "2": "Likvärdiga rättsliga överföringsmekanismer"
+      }
+    },
+    "rights": {
+      "heading": "13. Registrerades rättigheter",
+      "intro": "Enskilda har rätt att:",
+      "list": {
+        "0": "Få tillgång till sina personuppgifter",
+        "1": "Begära rättelse av felaktigheter",
+        "2": "Begära radering",
+        "3": "Begära begränsning av behandlingen",
+        "4": "Få ut sina uppgifter för dataportabilitet",
+        "5": "Invända mot behandling"
+      },
+      "note": "Förfrågningar kan skickas till privacy@oyb.app. Enskilda har också rätt att lämna klagomål till Integritetsskyddsmyndigheten (IMY)."
+    },
+    "cookies": {
+      "heading": "14. Cookies",
+      "p1": "OYB använder cookies och liknande tekniker. Mer information finns i vår cookiepolicy."
+    },
+    "updates": {
+      "heading": "15. Uppdateringar av denna policy",
+      "p1": "Vi kan uppdatera denna integritetspolicy för att återspegla förändringar i lagliga, tekniska eller operativa krav.",
+      "p2": "Den senaste versionen finnas alltid tillgänglig på oyb.app."
+    }
+  },
+  "termsOfService": {
+    "title": "Användarvillkor för OYB",
+    "effectiveDateLabel": "Gäller från",
+    "effectiveDate": "20 februari 2025",
+    "productLabel": "Produkt",
+    "product": "OYB",
+    "companyLabel": "Bolag",
+    "company": "Univise AB",
+    "organizationNumberLabel": "Organisationsnummer",
+    "organizationNumber": "559575-3293",
+    "registeredInLabel": "Registrerad i",
+    "registeredIn": "Sverige",
+    "contactLabel": "Kontakt",
+    "contact": "support@oyb.app",
+    "introduction": {
+      "heading": "1. Inledning",
+      "p1": "Dessa villkor reglerar åtkomst till och användning av oyb.app. Genom att besöka denna webbplats godkänner du dessa villkor."
+    },
+    "intellectualProperty": {
+      "heading": "2. Immateriella rättigheter",
+      "p1": "Allt innehåll på denna webbplats, inklusive text, design, varumärken, grafiskt material, metodbeskrivningar och programvarubeskrivningar, tillhör Univise AB om inget annat anges.",
+      "p2": "Inget innehåll får kopieras, distribueras eller ändras utan föregående skriftligt medgivande."
+    },
+    "informationalNature": {
+      "heading": "3. Informationens karaktär",
+      "p1": "Beskrivningar av OYB-plattformen tillhandahålls endast i informationssyfte och utgör inte garantier för specifika affärsresultat, organisatoriska effekter eller andra utfall."
+    },
+    "recommendations": {
+      "heading": "4. Informationens och rekommendationernas karaktär",
+      "p1": "Innehållet på denna webbplats och OYB-plattformen tillhandahålls för informations- och beslutsstödsyften. AI-genererade insikter och rekommendationer är av rådgivande natur. Slutliga beslut och implementering ligger hos kundorganisationen."
+    },
+    "liability": {
+      "heading": "5. Ansvarsbegränsning",
+      "p1": "Univise AB ansvarar inte för indirekta, tillfälliga eller följdskador som uppstår vid användning av webbplatsen."
+    },
+    "governingLaw": {
+      "heading": "6. Tillämplig lag",
+      "p1": "Dessa villkor reglerar av svensk lag. Tvister ska avgöras av svensk domstol."
+    }
+  },
+  "leadForm": {
+    "title": "Kontakt",
+    "description": "Berätta kort om er organisations behov, så återkommer vi snart.",
+    "label": {
+      "firstName": "Förnamn",
+      "lastName": "Efternamn",
+      "email": "E-post",
+      "companyName": "Organisation",
+      "phone": "Telefonnummer",
+      "lookingFor": "Vad behöver ni hjälp med?"
+    },
+    "placeholder": {
+      "firstName": "Anna",
+      "lastName": "Andersson",
+      "email": "anna@exempel.se",
+      "companyName": "Exempel AB",
+      "phone": "+46 (070) 1234567",
+      "lookingFor": "Berätta kort om vad ni behöver hjälp med..."
+    },
+    "validation": {
+      "firstName": "Förnamn är obligatoriskt",
+      "lastName": "Efternamn är obligatoriskt",
+      "emailRequired": "E-postadress är obligatoriskt",
+      "emailInvalid": "Ange en giltig e-postadress",
+      "companyName": "Organisation är obligatoriskt",
+      "phone": "Telefonnummer är obligatoriskt",
+      "lookingFor": "Beskriv kort vad ni behöver hjälp med"
+    },
+    "toast": {
+      "successTitle": "Tack!",
+      "successDesc": "Vi har mottagit din förfrågan och återkommer snart.",
+      "errorTitle": "Något gick fel",
+      "errorDesc": "Det gick inte att skicka formuläret. Försök igen eller kontakta oss direkt."
+    },
+    "submit": "Skicka",
+    "sending": "Skickar..."
+  },
+  "calendly": {
+    "title": "Boka en demo",
+    "closeAria": "Stäng",
+    "iframeTitle": "Boka en demo i Calendly"
+  },
+  "advisors": {
+    "title": "Utvalda Rådgivare",
+    "description": "Upptäck expertrådgivare och deras professionella insikter."
+  }
+}

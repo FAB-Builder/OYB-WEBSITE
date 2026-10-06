@@ -1,0 +1,14 @@
+{
+  "hosting": {
+    "public": "out",
+    "target": "oyb-website",
+    "cleanUrls": true,
+    "ignore": ["firebase.json", ".firebase", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
