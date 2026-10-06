@@ -1,6 +1,6 @@
 {
   "title": "OYB | Own Your Brand",
-  "description": "Välkommen till vår webbplats.",
+  "description": "Hantera din Google Företagsprofil, svara på recensioner med AI och automatisera Instagram-DM och kommentarer — allt i en lugn arbetsyta. Syns mer lokalt och missa aldrig en kund.",
   "privacy": "Integritetspolicy",
   "terms": "Användarvillkor",
   "hero": {
@@ -136,7 +136,7 @@
   "header": {
     "why": "Varför OYB",
     "how": "Så fungerar det",
-    "who": "För vem",
+    "who": "Vem det passar",
     "methodology": "Vår metod",
     "pricing": "Våra abonnemang",
     "signIn": "Logga in",
@@ -145,7 +145,9 @@
       "en": "English",
       "sv": "Svenska",
       "selectAria": "Välj språk"
-    }
+    },
+    "features": "Funktioner",
+    "faq": "Vanliga frågor"
   },
   "footer": {
     "privacy": "Integritet",
@@ -621,5 +623,276 @@
   "advisors": {
     "title": "Utvalda Rådgivare",
     "description": "Upptäck expertrådgivare och deras professionella insikter."
+  },
+  "home": {
+    "seo": {
+      "title": "OYB – Plattform för Google Företagsprofil & Instagram-automation | Own Your Brand",
+      "description": "Hantera din Google Företagsprofil, svara på recensioner med AI och automatisera Instagram-DM och kommentarer — allt i en lugn arbetsyta. Syns mer lokalt och missa aldrig en kund.",
+      "keywords": "Google Företagsprofil, hantera Google Företagsprofil, recensionshantering, svara på Google-recensioner, AI-svar på recensioner, ryktehantering, lokal SEO, Instagram autosvar, Instagram DM-automation, automatisera Instagram, sociala medier automation, ManyChat alternativ, Own Your Brand"
+    },
+    "hero": {
+      "eyebrow": "Google Företagsprofil + Instagram-automation, med AI",
+      "title": "Äg ditt varumärke på Google och Instagram — utan allt manuellt arbete.",
+      "subtitle": "OYB samlar din Google Företagsprofil, dina recensioner och dina Instagram-konversationer i en lugn arbetsyta. AI skriver svar i din ton, håller profilen aktiv och ser till att ingen kund blir obesvarad.",
+      "primaryCta": "Kom igång gratis",
+      "secondaryCta": "Boka en demo",
+      "note": "Koppla dina konton på några minuter. Inga tekniska kunskaper krävs.",
+      "worksWith": "Fungerar med plattformarna dina kunder redan använder"
+    },
+    "platforms": {
+      "0": "Google Företagsprofil",
+      "1": "Google Sök",
+      "2": "Google Maps",
+      "3": "Instagram",
+      "4": "Meta Business Suite"
+    },
+    "problem": {
+      "eyebrow": "Känner du igen dig?",
+      "title": "Ditt varumärke finns på många ställen. Din tid räcker inte till.",
+      "pains": {
+        "0": "Recensioner ligger obesvarade i flera dagar — medan nya kunder läser varenda en.",
+        "1": "Instagram-DM och kommentarer hopar sig efter stängning och blir till förlorade affärer.",
+        "2": "Din Google-profil har inte fått ett nytt inlägg, foto eller uppdatering på månader.",
+        "3": "Du betalar för flera verktyg som inte pratar med varandra."
+      },
+      "resolutionTitle": "Det finns ett lugnare sätt.",
+      "resolution": "Slipp jonglera appar och inloggningar. Med OYB finns din Google-närvaro, dina recensioner och din Instagram-inkorg i en enda flik — till en bråkdel av kostnaden för separata verktyg."
+    },
+    "features": {
+      "eyebrow": "Allt på ett ställe",
+      "title": "En plattform för att synas, skapa förtroende och svara snabbare",
+      "subtitle": "Alla moduler arbetar tillsammans, så det du gör i en kanal stärker ditt varumärke i alla.",
+      "alternativeLabel": "Ett enklare alternativ till",
+      "gbp": {
+        "eyebrow": "Hantering av Google Företagsprofil",
+        "title": "Syns där lokala kunder söker",
+        "desc": "Håll varje Google Företagsprofil korrekt, aktiv och redo att ranka i Google Sök och Maps — för en plats eller många.",
+        "bullets": {
+          "0": "Uppdatera öppettider, tjänster och företagsuppgifter från en översikt",
+          "1": "Publicera inlägg, erbjudanden och nyheter som håller profilen levande",
+          "2": "Organisera varumärken, platser och kunder i separata arbetsytor",
+          "3": "Upptäck saknad eller inaktuell information innan kunderna gör det"
+        },
+        "alternatives": "BrightLocal, Yext, manuella uppdateringar"
+      },
+      "reviews": {
+        "eyebrow": "Recensioner & ryktehantering",
+        "title": "Svara på varje recension med omtanke — på sekunder",
+        "desc": "AI skriver personliga svar i din ton på nya Google-recensioner. Godkänn, redigera eller låt OYB svara åt dig, så att varje kund känner sig sedd.",
+        "bullets": {
+          "0": "AI-skrivna recensionssvar som matchar ditt varumärke",
+          "1": "Godkänn innan publicering, eller automatisera svar på positiva recensioner",
+          "2": "Direkta aviseringar om kritiska recensioner innan de eskalerar",
+          "3": "Följ ditt betyg och antal recensioner över tid"
+        },
+        "alternatives": "Birdeye, Podium, Reputation.com"
+      },
+      "instagram": {
+        "eyebrow": "Instagram autosvar",
+        "title": "Svara på varje DM och kommentar — även klockan två på natten",
+        "desc": "Automatiska svar som låter mänskliga på Instagram-meddelanden, kommentarer och story-svar. Besvara vanliga frågor, dela länkar och fånga leads medan du fokuserar på verksamheten.",
+        "bullets": {
+          "0": "Nyckelordsstyrda svar på DM, kommentarer och story-omnämnanden",
+          "1": "Direkta svar på vanliga frågor om priser, öppettider och bokningar",
+          "2": "Skicka länkar, erbjudanden och lead magnets automatiskt",
+          "3": "Lämna över till en person när ett samtal behöver en personlig touch"
+        },
+        "alternatives": "ManyChat, Inrō, manuell bevakning av inkorgen"
+      },
+      "voice": {
+        "eyebrow": "AI-varumärkesröst",
+        "title": "AI som låter som du — inte som en robot",
+        "desc": "Lär OYB din ton, dina produkter och dina riktlinjer en gång. Varje svar på Google och Instagram blir konsekvent, korrekt och tydligt ditt.",
+        "bullets": {
+          "0": "Inställningar för ton, språk och hälsningsfraser",
+          "1": "Svar på svenska, engelska och kundens eget språk",
+          "2": "Föreslagna svar som du kan granska och redigera innan de skickas",
+          "3": "Skyddsräcken som håller varje svar i linje med varumärket"
+        },
+        "alternatives": "Generiska chattbotar, kopierade mallar"
+      },
+      "insights": {
+        "eyebrow": "Rapporter & insikter",
+        "title": "Se vad som fungerar — med en blick",
+        "desc": "Tydliga rapporter för din Google-profil och dina Instagram-konversationer visar hur kunder hittar dig, vad de frågar och hur snabbt du svarar.",
+        "bullets": {
+          "0": "Profilvisningar, sökningar, samtal och vägbeskrivningar",
+          "1": "Svarstid och svarsfrekvens i alla kanaler",
+          "2": "Stämning i recensioner och betygstrender",
+          "3": "Rapporter per plats, varumärke och arbetsyta"
+        },
+        "alternatives": "Kalkylark och utspridda inbyggda dashboards"
+      }
+    },
+    "mock": {
+      "gbpName": "Nordic Coffee House",
+      "gbpCategory": "Kafé · Öppet till 18:00",
+      "gbpViews": "Profilvisningar",
+      "gbpCalls": "Samtal",
+      "gbpDirections": "Vägbeskrivningar",
+      "gbpPost": "Nytt inlägg schemalagt · Helgbrunch-erbjudande",
+      "reviewAuthor": "Emma L.",
+      "reviewText": "Mysig atmosfär och stadens bästa kanelbullar!",
+      "reviewDraftLabel": "AI-förslag på svar",
+      "reviewDraft": "Tusen tack, Emma! Vad roligt att bullarna föll i smaken — välkommen tillbaka snart. ☕",
+      "reviewApprove": "Godkänn & publicera",
+      "igUser": "@julia.design",
+      "igQuestion": "Hej! Tar ni bokningar till lördag?",
+      "igReply": "Hej Julia! Ja — du kan boka bord här: oyb.link/book. Vi ses gärna! 💜",
+      "igAuto": "Autosvar på 2 sekunder",
+      "voiceTone": "Ton",
+      "voiceToneValue": "Varm · Professionell",
+      "voiceLanguage": "Språk",
+      "voiceLanguageValue": "Svenska, English",
+      "voiceSignoff": "Hälsning",
+      "voiceSignoffValue": "— Teamet på Nordic Coffee",
+      "voiceAvoid": "Undvik",
+      "voiceAvoidValue": "Rabattlöften, slang",
+      "insightsResponse": "Snittlig svarstid",
+      "insightsRate": "Svarsfrekvens",
+      "insightsRating": "Betygstrend",
+      "insightsWeek": "Senaste 8 veckorna"
+    },
+    "more": {
+      "eyebrow": "Och mycket mer",
+      "title": "Allt annat du behöver för att äga ditt varumärke",
+      "items": {
+        "workspaces": {
+          "title": "Arbetsytor för varje varumärke",
+          "desc": "Håll varje verksamhet, plats eller kund separat — perfekt för byråer och kedjor."
+        },
+        "alerts": {
+          "title": "Smarta aviseringar",
+          "desc": "Få besked om nya recensioner, brådskande meddelanden och allt som kräver ett mänskligt beslut."
+        },
+        "approvals": {
+          "title": "Godkännandeflöden",
+          "desc": "Granska AI-förslag innan de publiceras, eller låt betrodda svar publiceras automatiskt."
+        },
+        "languages": {
+          "title": "Flerspråkigt från start",
+          "desc": "Använd OYB på svenska eller engelska och svara kunder på det språk de skriver på."
+        },
+        "security": {
+          "title": "GDPR-redo, med EU-lagring",
+          "desc": "Kunddata i plattformen lagras inom EU på Google Cloud och hanteras enligt GDPR."
+        },
+        "support": {
+          "title": "Riktig mänsklig support",
+          "desc": "Få hjälp av ett team som förstår lokala företag — onboarding ingår."
+        }
+      }
+    },
+    "how": {
+      "eyebrow": "Så fungerar det",
+      "title": "Igång i tre lugna steg",
+      "steps": {
+        "0": {
+          "title": "Koppla dina konton",
+          "desc": "Registrera dig och koppla säkert din Google Företagsprofil och Instagram med några klick."
+        },
+        "1": {
+          "title": "Ställ in din varumärkesröst",
+          "desc": "Berätta för OYB hur du låter, vad du erbjuder och vilka svar som kräver ditt godkännande."
+        },
+        "2": {
+          "title": "Låt OYB sköta rutinerna",
+          "desc": "Svar, uppdateringar och rapporter sköts i bakgrunden. Du kliver in bara när det behövs."
+        }
+      }
+    },
+    "who": {
+      "eyebrow": "Vem det passar",
+      "title": "Byggt för företag som lever på lokalt förtroende",
+      "items": {
+        "local": {
+          "title": "Lokala företag",
+          "desc": "Restauranger, kaféer, salonger, kliniker och butiker som vinner kunder på Google Maps och Instagram."
+        },
+        "multi": {
+          "title": "Företag med flera platser",
+          "desc": "Håll varje plats konsekvent, korrekt och snabb på att svara — utan att växa teamet."
+        },
+        "agencies": {
+          "title": "Byråer & konsulter",
+          "desc": "Hantera många kunder från en inloggning och leverera snabbare, mer mätbara resultat."
+        },
+        "creators": {
+          "title": "Kreatörer & e-handel",
+          "desc": "Gör Instagram-kommentarer och DM till samtal, leads och försäljning — automatiskt."
+        }
+      }
+    },
+    "compare": {
+      "eyebrow": "Varför OYB",
+      "title": "En plattform i stället för en hög med abonnemang",
+      "subtitle": "De flesta företag pusslar ihop fyra eller fem verktyg för att göra det OYB gör på ett ställe.",
+      "colTask": "Det du behöver",
+      "colUsual": "Det vanliga sättet",
+      "colOyb": "Med OYB",
+      "rows": {
+        "0": {
+          "task": "Hantering av Google Företagsprofil",
+          "usual": "Verktyg för listningar"
+        },
+        "1": {
+          "task": "Recensionssvar & ryktehantering",
+          "usual": "Verktyg för ryktehantering"
+        },
+        "2": {
+          "task": "Automation av Instagram-DM & kommentarer",
+          "usual": "Chattbot / DM-verktyg"
+        },
+        "3": {
+          "task": "AI-texter i din ton",
+          "usual": "Separat AI-skrivverktyg"
+        },
+        "4": {
+          "task": "Rapporter över alla kanaler",
+          "usual": "Kalkylark och exporter"
+        }
+      },
+      "included": "Ingår"
+    },
+    "faq": {
+      "eyebrow": "Vanliga frågor",
+      "title": "Vanliga frågor",
+      "items": {
+        "0": {
+          "q": "Vad är OYB?",
+          "a": "OYB (Own Your Brand) är en allt-i-ett-plattform för att hantera din Google Företagsprofil, svara på Google-recensioner och automatisera Instagram-DM och kommentarer med AI — från en och samma arbetsyta."
+        },
+        "1": {
+          "q": "Hur hjälper OYB min Google Företagsprofil att ranka högre?",
+          "a": "Google gynnar företagsprofiler som är kompletta, korrekta och aktiva. OYB hjälper dig att hålla uppgifterna aktuella, publicera inlägg regelbundet och svara snabbt på recensioner — signaler som förknippas med bättre synlighet i lokala sökningar och på Google Maps."
+        },
+        "2": {
+          "q": "Kan OYB svara automatiskt på Instagram-DM och kommentarer?",
+          "a": "Ja. Instagram-autosvaret svarar på meddelanden, kommentarer och story-svar utifrån nyckelord och din varumärkesröst, och lämnar över samtalet till dig när ett personligt svar behövs."
+        },
+        "3": {
+          "q": "Låter AI-svaren robotaktiga?",
+          "a": "Nej. Du bestämmer ton, språk och hälsningsfraser, och OYB skriver svar som låter som ditt företag. Du kan godkänna varje svar innan det publiceras eller bara automatisera de svar du litar på."
+        },
+        "4": {
+          "q": "Kan jag hantera flera platser eller kunder?",
+          "a": "Ja. Arbetsytor håller varje varumärke, plats eller kund separat, vilket gör OYB väl lämpat för kedjor och marknadsföringsbyråer."
+        },
+        "5": {
+          "q": "Är min data säker?",
+          "a": "OYB utvecklas av Univise AB i Sverige. Kunddata i plattformen lagras inom EU på Google Cloud Platform och behandlas enligt GDPR."
+        },
+        "6": {
+          "q": "Behöver jag tekniska kunskaper för att använda OYB?",
+          "a": "Inte alls. Du kopplar dina konton med några klick och ställer in dina önskemål i vanlig text. Vårt team hjälper dig också gärna att komma igång."
+        }
+      }
+    },
+    "cta": {
+      "title": "Redo att äga ditt varumärke?",
+      "desc": "Kom igång gratis, eller boka ett kostnadsfritt samtal så går vi igenom en tillväxtplan för din närvaro på Google och Instagram.",
+      "primary": "Kom igång gratis",
+      "secondary": "Boka ett gratis samtal"
+    }
   }
 }

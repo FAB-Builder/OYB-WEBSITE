@@ -1,6 +1,6 @@
 {
   "title": "OYB | Own Your Brand",
-  "description": "Welcome to our website.",
+  "description": "Manage your Google Business Profile, reply to reviews with AI, and automate Instagram DMs and comments — all in one calm workspace. Grow local visibility and never miss a customer.",
   "privacy": "Privacy Policy",
   "terms": "Terms of Service",
   "hero": {
@@ -145,7 +145,9 @@
       "en": "English",
       "sv": "Svenska",
       "selectAria": "Select language"
-    }
+    },
+    "features": "Features",
+    "faq": "FAQ"
   },
   "footer": {
     "privacy": "Privacy Policy",
@@ -621,5 +623,276 @@
   "advisors": {
     "title": "Featured Advisors",
     "description": "Discover expert advisors and their professional insights."
+  },
+  "home": {
+    "seo": {
+      "title": "OYB – Google Business Profile & Instagram Automation Platform | Own Your Brand",
+      "description": "Manage your Google Business Profile, reply to reviews with AI, and automate Instagram DMs and comments — all in one calm workspace. Grow local visibility and never miss a customer.",
+      "keywords": "Google Business Profile management, GBP management software, Google review management, AI review responses, reputation management, local SEO tool, Instagram auto responder, Instagram DM automation, Instagram auto reply, social media automation, ManyChat alternative, Birdeye alternative, multi-location business management, Own Your Brand"
+    },
+    "hero": {
+      "eyebrow": "Google Business Profile + Instagram automation, powered by AI",
+      "title": "Own your brand on Google and Instagram — without the busywork.",
+      "subtitle": "OYB brings your Google Business Profile, reviews, and Instagram conversations into one calm workspace. AI drafts on-brand replies, keeps your profile active, and makes sure no customer goes unanswered.",
+      "primaryCta": "Start for free",
+      "secondaryCta": "Book a demo",
+      "note": "Connect your accounts in minutes. No technical skills needed.",
+      "worksWith": "Works with the platforms your customers already use"
+    },
+    "platforms": {
+      "0": "Google Business Profile",
+      "1": "Google Search",
+      "2": "Google Maps",
+      "3": "Instagram",
+      "4": "Meta Business Suite"
+    },
+    "problem": {
+      "eyebrow": "Sound familiar?",
+      "title": "Your brand lives in a dozen places. Your time doesn't.",
+      "pains": {
+        "0": "Reviews sit unanswered for days — while new customers read every one of them.",
+        "1": "Instagram DMs and comments pile up after hours and quietly turn into lost sales.",
+        "2": "Your Google profile hasn't seen a fresh post, photo, or update in months.",
+        "3": "You're paying for several tools that don't talk to each other."
+      },
+      "resolutionTitle": "There's a calmer way.",
+      "resolution": "Say goodbye to juggling apps and logins. With OYB, your Google presence, reviews, and Instagram inbox live in a single tab — at a fraction of the cost of separate tools."
+    },
+    "features": {
+      "eyebrow": "Everything in one place",
+      "title": "One platform to be found, be trusted, and respond faster",
+      "subtitle": "Every module works together, so the work you do on one channel strengthens your brand on all of them.",
+      "alternativeLabel": "A simpler alternative to",
+      "gbp": {
+        "eyebrow": "Google Business Profile management",
+        "title": "Stay visible where local customers search",
+        "desc": "Keep every Google Business Profile accurate, active, and ready to rank in Google Search and Maps — for one location or many.",
+        "bullets": {
+          "0": "Update hours, services, and business details from one dashboard",
+          "1": "Publish posts, offers, and updates that keep your profile fresh",
+          "2": "Organize brands, locations, and clients in separate workspaces",
+          "3": "Spot missing or outdated information before customers do"
+        },
+        "alternatives": "BrightLocal, Yext, manual updates"
+      },
+      "reviews": {
+        "eyebrow": "Review & reputation management",
+        "title": "Answer every review with care — in seconds",
+        "desc": "AI drafts personal, on-brand responses to new Google reviews. Approve, edit, or let OYB reply for you, so every customer feels heard.",
+        "bullets": {
+          "0": "AI-drafted review replies that match your brand voice",
+          "1": "Approve before posting, or automate replies to positive reviews",
+          "2": "Instant alerts for critical reviews before they escalate",
+          "3": "Track your rating and review volume over time"
+        },
+        "alternatives": "Birdeye, Podium, Reputation.com"
+      },
+      "instagram": {
+        "eyebrow": "Instagram auto responder",
+        "title": "Reply to every DM and comment — even at 2 a.m.",
+        "desc": "Automatic, human-sounding responses to Instagram messages, comments, and story replies. Answer FAQs, share links, and capture leads while you focus on your business.",
+        "bullets": {
+          "0": "Keyword-triggered replies to DMs, comments, and story mentions",
+          "1": "Instant answers to common questions about prices, hours, and bookings",
+          "2": "Send links, offers, and lead magnets automatically",
+          "3": "Hand over to a person whenever a conversation needs a personal touch"
+        },
+        "alternatives": "ManyChat, Inrō, manual inbox checks"
+      },
+      "voice": {
+        "eyebrow": "AI brand voice",
+        "title": "AI that sounds like you — not like a robot",
+        "desc": "Teach OYB your tone, products, and policies once. Every reply on Google and Instagram stays consistent, accurate, and unmistakably yours.",
+        "bullets": {
+          "0": "Brand voice settings for tone, language, and sign-offs",
+          "1": "Replies in English, Swedish, and your customers' language",
+          "2": "Suggested responses you can review and edit before sending",
+          "3": "Guardrails that keep every answer on-brand and on-policy"
+        },
+        "alternatives": "Generic chatbots, copy-paste templates"
+      },
+      "insights": {
+        "eyebrow": "Reporting & insights",
+        "title": "See what's working, at a glance",
+        "desc": "Clear reports across your Google profile and Instagram conversations show how customers find you, what they ask, and how quickly you respond.",
+        "bullets": {
+          "0": "Profile views, searches, calls, and direction requests",
+          "1": "Response time and reply rate across every channel",
+          "2": "Review sentiment and rating trends",
+          "3": "Reporting by location, brand, and workspace"
+        },
+        "alternatives": "Spreadsheets and scattered native dashboards"
+      }
+    },
+    "mock": {
+      "gbpName": "Nordic Coffee House",
+      "gbpCategory": "Café · Open until 18:00",
+      "gbpViews": "Profile views",
+      "gbpCalls": "Calls",
+      "gbpDirections": "Directions",
+      "gbpPost": "New post scheduled · Weekend brunch offer",
+      "reviewAuthor": "Emma L.",
+      "reviewText": "Lovely atmosphere and the best cinnamon buns in town!",
+      "reviewDraftLabel": "AI-drafted reply",
+      "reviewDraft": "Thank you so much, Emma! We're thrilled you enjoyed the buns — see you again soon. ☕",
+      "reviewApprove": "Approve & post",
+      "igUser": "@julia.design",
+      "igQuestion": "Hi! Do you take bookings for Saturday?",
+      "igReply": "Hi Julia! Yes — you can book a table here: oyb.link/book. We'd love to see you! 💜",
+      "igAuto": "Auto-replied in 2 seconds",
+      "voiceTone": "Tone",
+      "voiceToneValue": "Warm · Professional",
+      "voiceLanguage": "Languages",
+      "voiceLanguageValue": "English, Svenska",
+      "voiceSignoff": "Sign-off",
+      "voiceSignoffValue": "— The Nordic Coffee team",
+      "voiceAvoid": "Avoid",
+      "voiceAvoidValue": "Discount promises, slang",
+      "insightsResponse": "Avg. response time",
+      "insightsRate": "Reply rate",
+      "insightsRating": "Rating trend",
+      "insightsWeek": "Last 8 weeks"
+    },
+    "more": {
+      "eyebrow": "And much more",
+      "title": "Everything else you need to own your brand",
+      "items": {
+        "workspaces": {
+          "title": "Workspaces for every brand",
+          "desc": "Keep each business, location, or client separate — ideal for agencies and multi-location brands."
+        },
+        "alerts": {
+          "title": "Smart notifications",
+          "desc": "Get notified about new reviews, urgent messages, and anything that needs a human decision."
+        },
+        "approvals": {
+          "title": "Approval workflows",
+          "desc": "Review AI suggestions before they go live, or set trusted replies to publish automatically."
+        },
+        "languages": {
+          "title": "Multilingual by default",
+          "desc": "Use OYB in English or Swedish and reply to customers in the language they write in."
+        },
+        "security": {
+          "title": "GDPR-ready, EU-hosted",
+          "desc": "Customer platform data is stored in the EU on Google Cloud and handled in line with GDPR."
+        },
+        "support": {
+          "title": "Real human support",
+          "desc": "Get help from a team that understands local businesses — onboarding included."
+        }
+      }
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "Up and running in three calm steps",
+      "steps": {
+        "0": {
+          "title": "Connect your accounts",
+          "desc": "Sign up and securely connect your Google Business Profile and Instagram in a few clicks."
+        },
+        "1": {
+          "title": "Set your brand voice",
+          "desc": "Tell OYB how you sound, what you offer, and which replies need your approval."
+        },
+        "2": {
+          "title": "Let OYB handle the routine",
+          "desc": "Replies, updates, and reports run in the background. You step in only when it matters."
+        }
+      }
+    },
+    "who": {
+      "eyebrow": "Who it's for",
+      "title": "Built for businesses that live on local trust",
+      "items": {
+        "local": {
+          "title": "Local businesses",
+          "desc": "Restaurants, cafés, salons, clinics, and shops that win customers on Google Maps and Instagram."
+        },
+        "multi": {
+          "title": "Multi-location brands",
+          "desc": "Keep every location consistent, accurate, and responsive without growing the team."
+        },
+        "agencies": {
+          "title": "Agencies & consultants",
+          "desc": "Manage many clients from one login and deliver faster, more measurable results."
+        },
+        "creators": {
+          "title": "Creators & e-commerce",
+          "desc": "Turn Instagram comments and DMs into conversations, leads, and sales — automatically."
+        }
+      }
+    },
+    "compare": {
+      "eyebrow": "Why OYB",
+      "title": "One platform instead of a stack of subscriptions",
+      "subtitle": "Most businesses stitch together four or five tools to do what OYB does in one place.",
+      "colTask": "What you need",
+      "colUsual": "The usual way",
+      "colOyb": "With OYB",
+      "rows": {
+        "0": {
+          "task": "Google Business Profile management",
+          "usual": "Listing management tool"
+        },
+        "1": {
+          "task": "Review responses & reputation",
+          "usual": "Reputation management tool"
+        },
+        "2": {
+          "task": "Instagram DM & comment automation",
+          "usual": "Chatbot / DM automation tool"
+        },
+        "3": {
+          "task": "On-brand AI writing",
+          "usual": "Separate AI writing assistant"
+        },
+        "4": {
+          "task": "Cross-channel reporting",
+          "usual": "Spreadsheets and exports"
+        }
+      },
+      "included": "Included"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "items": {
+        "0": {
+          "q": "What is OYB?",
+          "a": "OYB (Own Your Brand) is an all-in-one platform for managing your Google Business Profile, responding to Google reviews, and automating Instagram DMs and comments with AI — all from a single workspace."
+        },
+        "1": {
+          "q": "How does OYB help my Google Business Profile rank higher?",
+          "a": "Google favors business profiles that are complete, accurate, and active. OYB helps you keep details up to date, publish regular posts, and respond to reviews quickly — all signals associated with stronger visibility in local search and Google Maps."
+        },
+        "2": {
+          "q": "Can OYB automatically reply to Instagram DMs and comments?",
+          "a": "Yes. The Instagram auto responder replies to messages, comments, and story replies based on keywords and your brand voice, and hands conversations over to you whenever a personal reply is needed."
+        },
+        "3": {
+          "q": "Will AI-generated replies sound robotic?",
+          "a": "No. You define your tone, language, and sign-offs, and OYB writes replies that sound like your business. You can approve every reply before it's published or automate only the ones you trust."
+        },
+        "4": {
+          "q": "Can I manage multiple locations or clients?",
+          "a": "Yes. Workspaces keep each brand, location, or client separate, which makes OYB a good fit for multi-location businesses and marketing agencies."
+        },
+        "5": {
+          "q": "Is my data secure?",
+          "a": "OYB is developed by Univise AB in Sweden. Customer platform data is stored within the EU on Google Cloud Platform and processed in line with GDPR."
+        },
+        "6": {
+          "q": "Do I need technical skills to use OYB?",
+          "a": "Not at all. You connect your accounts in a few clicks and set your preferences in plain language. Our team is also happy to help you get started."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to own your brand?",
+      "desc": "Start for free, or book a no-cost call and we'll walk you through a growth plan for your Google and Instagram presence.",
+      "primary": "Start for free",
+      "secondary": "Book a free call"
+    }
   }
 }

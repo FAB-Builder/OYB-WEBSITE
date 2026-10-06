@@ -1,13 +1,33 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Toaster } from "@/components/ui/toaster";
+import { SITE_URL } from "@/lib/seo";
+import enText from "../../public/locales/en.json";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "OYB | Own Your Brand",
-  description: "Own Your Brand helps organizations build clarity, shared ownership, and meaningful progress.",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: enText.home.seo.title,
+    template: "%s | OYB – Own Your Brand",
+  },
+  description: enText.home.seo.description,
+  applicationName: "OYB – Own Your Brand",
+  authors: [{ name: "Univise AB", url: SITE_URL }],
+  creator: "Univise AB",
+  publisher: "Univise AB",
+  category: "Business software",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
+  },
   icons: {
     icon: "/favicon.svg",
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#ffffff",
 };
 
 export default function RootLayout({
@@ -16,7 +36,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className="h-full antialiased">
+    <html lang="en" className="h-full antialiased">
       <body className="min-h-full flex flex-col">
         {children}
         <Toaster />

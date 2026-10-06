@@ -7,6 +7,8 @@ import { useTranslations, useLocale } from "@/i18n/client";
 import localeManifest from "../../public/locales/manifest.json";
 import Link from "next/link";
 
+const navItems = ["features", "how", "who", "why", "faq"] as const;
+
 interface HeaderProps {
   onNavClick?: (sectionId: string) => void;
   localeOverride?: string;
@@ -93,41 +95,16 @@ const Header = ({ onNavClick, localeOverride }: HeaderProps) => {
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            <a 
-              href="#why" 
-              onClick={(e) => handleNavClick(e, 'why')}
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              {t('header.why')}
-            </a>
-            <a 
-              href="#how" 
-              onClick={(e) => handleNavClick(e, 'how')}
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              {t('header.how')}
-            </a>
-            <a 
-              href="#who" 
-              onClick={(e) => handleNavClick(e, 'who')}
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              {t('header.who')}
-            </a>
-            <a 
-              href="#methodology" 
-              onClick={(e) => handleNavClick(e, 'methodology')}
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              {t('header.methodology')}
-            </a>
-            <a 
-              href="#pricing" 
-              onClick={(e) => handleNavClick(e, 'pricing')}
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              {t('header.pricing')}
-            </a>
+            {navItems.map((id) => (
+              <a
+                key={id}
+                href={`#${id}`}
+                onClick={(e) => handleNavClick(e, id)}
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                {t(`header.${id}`)}
+              </a>
+            ))}
           </nav>
 
           {/* CTA */}
