@@ -12,9 +12,9 @@ export const metadata: Metadata = {
   },
   description: enText.home.seo.description,
   applicationName: "OYB – Own Your Brand",
-  authors: [{ name: "Univise AB", url: SITE_URL }],
-  creator: "Univise AB",
-  publisher: "Univise AB",
+  authors: [{ name: "CRSPL", url: SITE_URL }],
+  creator: "CRSPL",
+  publisher: "CRSPL",
   category: "Business software",
   robots: {
     index: true,

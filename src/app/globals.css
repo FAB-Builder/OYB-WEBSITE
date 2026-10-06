@@ -20,6 +20,11 @@
   --primary: 258 39% 59%;
   --primary-foreground: 0 0% 100%;
   --primary-hover: 258 39% 53%;
+
+  /* CTA - Vivid Purple (#7e22ce) for primary calls to action */
+  --cta: 272 72% 47%;
+  --cta-foreground: 0 0% 100%;
+  --cta-hover: 273 67% 39%;
   
   /* Secondary - Soft Neutral */
   --secondary: 240 5% 96%;
@@ -68,6 +73,9 @@
   --primary: 258 39% 65%;
   --primary-foreground: 0 0% 100%;
   --primary-hover: 258 39% 70%;
+  --cta: 272 72% 47%;
+  --cta-foreground: 0 0% 100%;
+  --cta-hover: 272 72% 55%;
   --secondary: 240 6% 18%;
   --secondary-foreground: 0 0% 98%;
   --muted: 240 6% 18%;
@@ -94,6 +102,9 @@
   --color-primary: hsl(var(--primary));
   --color-primary-foreground: hsl(var(--primary-foreground));
   --color-primary-hover: hsl(var(--primary-hover));
+  --color-cta: hsl(var(--cta));
+  --color-cta-foreground: hsl(var(--cta-foreground));
+  --color-cta-hover: hsl(var(--cta-hover));
   --color-secondary: hsl(var(--secondary));
   --color-secondary-foreground: hsl(var(--secondary-foreground));
   --color-destructive: hsl(var(--destructive));
@@ -187,4 +198,21 @@
 
 @utility container-wide {
   @apply max-w-6xl mx-auto px-6;
+}
+
+/* Dark, softly lit surface for the homepage hero */
+@utility hero-surface {
+  background-color: hsl(250 32% 9%);
+  background-image:
+    radial-gradient(60% 55% at 50% 0%, hsl(var(--primary) / 0.5), transparent 70%),
+    radial-gradient(35% 40% at 88% 65%, hsl(195 75% 55% / 0.14), transparent 70%),
+    radial-gradient(35% 40% at 8% 85%, hsl(var(--primary) / 0.22), transparent 70%);
+}
+
+@utility hero-grid {
+  background-image:
+    linear-gradient(hsl(0 0% 100% / 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, hsl(0 0% 100% / 0.05) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(70% 60% at 50% 30%, black, transparent 80%);
 }

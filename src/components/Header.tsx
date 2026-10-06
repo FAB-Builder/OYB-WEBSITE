@@ -125,7 +125,7 @@ const Header = ({ onNavClick, localeOverride }: HeaderProps) => {
             <Button variant="ghost" size="sm" className="hidden sm:inline-flex" onClick={handleNavigate}>
               {t('header.signIn')}
             </Button>
-            <Button size="sm" onClick={() => setIsCalendlyOpen(true)}>
+            <Button variant="cta" size="sm" onClick={() => setIsCalendlyOpen(true)}>
               {t('header.bookDemo')}
             </Button>
           </div>

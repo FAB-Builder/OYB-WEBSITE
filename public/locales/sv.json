@@ -335,20 +335,20 @@
   },
   "privacyPolicy": {
     "title": "Integritetspolicy för OYB",
-    "poweredBy": "Tillhandahålls av Univise AB",
+    "poweredBy": "Tillhandahålls av CRSPL",
     "effectiveDateLabel": "Giltigt från",
     "effectiveDate": "22 februari 2026",
     "controllerLabel": "Personuppgiftsansvarig",
-    "controller": "Univise AB",
+    "controller": "CRSPL",
     "registeredInLabel": "Registrerad i",
     "registeredIn": "Sverige",
     "organizationNumberLabel": "Organisationsnummer",
-    "organizationNumber": "559575-3293",
+    "organizationNumber": "",
     "contactLabel": "Kontakt",
     "contact": "privacy@oyb.app",
     "introduction": {
       "heading": "1. Inledning",
-      "p1": "Univise AB (”vi”, ”oss”) värnar om skyddet av personuppgifter och behandlar dem i enlighet med EU:s allmänna dataskyddsförordning (GDPR) och tillämplig dataskyddslagstiftning.",
+      "p1": "CRSPL (”vi”, ”oss”) värnar om skyddet av personuppgifter och behandlar dem i enlighet med EU:s allmänna dataskyddsförordning (GDPR) och tillämplig dataskyddslagstiftning.",
       "p2": "Vi har styrnings-, säkerhets- och riskhanteringsprocesser på plats för att säkerställa konfidentialitet, integritet och tillgänglighet för personuppgifter som behandlas via OYB-plattformen.",
       "p3": "Denna integritetspolicy beskriver hur vi samlar in, använder, lagrar och skyddar personuppgifter i samband med:",
       "list": {
@@ -545,9 +545,9 @@
     "productLabel": "Produkt",
     "product": "OYB",
     "companyLabel": "Bolag",
-    "company": "Univise AB",
+    "company": "CRSPL",
     "organizationNumberLabel": "Organisationsnummer",
-    "organizationNumber": "559575-3293",
+    "organizationNumber": "",
     "registeredInLabel": "Registrerad i",
     "registeredIn": "Sverige",
     "contactLabel": "Kontakt",
@@ -558,7 +558,7 @@
     },
     "intellectualProperty": {
       "heading": "2. Immateriella rättigheter",
-      "p1": "Allt innehåll på denna webbplats, inklusive text, design, varumärken, grafiskt material, metodbeskrivningar och programvarubeskrivningar, tillhör Univise AB om inget annat anges.",
+      "p1": "Allt innehåll på denna webbplats, inklusive text, design, varumärken, grafiskt material, metodbeskrivningar och programvarubeskrivningar, tillhör CRSPL om inget annat anges.",
       "p2": "Inget innehåll får kopieras, distribueras eller ändras utan föregående skriftligt medgivande."
     },
     "informationalNature": {
@@ -571,7 +571,7 @@
     },
     "liability": {
       "heading": "5. Ansvarsbegränsning",
-      "p1": "Univise AB ansvarar inte för indirekta, tillfälliga eller följdskador som uppstår vid användning av webbplatsen."
+      "p1": "CRSPL ansvarar inte för indirekta, tillfälliga eller följdskador som uppstår vid användning av webbplatsen."
     },
     "governingLaw": {
       "heading": "6. Tillämplig lag",
@@ -632,7 +632,7 @@
     },
     "hero": {
       "eyebrow": "Google Företagsprofil + Instagram-automation, med AI",
-      "title": "Äg ditt varumärke på Google och Instagram — utan allt manuellt arbete.",
+      "title": "Stärk ditt varumärke på Google och Instagram — utan allt manuellt arbete.",
       "subtitle": "OYB samlar din Google Företagsprofil, dina recensioner och dina Instagram-konversationer i en lugn arbetsyta. AI skriver svar i din ton, håller profilen aktiv och ser till att ingen kund blir obesvarad.",
       "primaryCta": "Kom igång gratis",
       "secondaryCta": "Boka en demo",
@@ -880,7 +880,7 @@
         },
         "5": {
           "q": "Är min data säker?",
-          "a": "OYB utvecklas av Univise AB i Sverige. Kunddata i plattformen lagras inom EU på Google Cloud Platform och behandlas enligt GDPR."
+          "a": "OYB utvecklas av CRSPL i Sverige. Kunddata i plattformen lagras inom EU på Google Cloud Platform och behandlas enligt GDPR."
         },
         "6": {
           "q": "Behöver jag tekniska kunskaper för att använda OYB?",

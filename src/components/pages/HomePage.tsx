@@ -86,7 +86,7 @@ const HomePage = () => {
         "@id": `${SITE_URL}/#organization`,
         name: "OYB – Own Your Brand",
         alternateName: "OYB",
-        legalName: "Univise AB",
+        legalName: "CRSPL",
         url: SITE_URL,
         logo: `${SITE_URL}/favicon.svg`,
         email: "support@oyb.app",
@@ -134,17 +134,18 @@ const HomePage = () => {
 
       <main className="flex-1">
         {/* Hero */}
-        <section className="section-padding pt-32 md:pt-40">
-          <div className="container-wide text-center">
-            <p className="mx-auto mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-surface-subtle px-4 py-1.5 text-sm text-muted-foreground animate-fade-in">
-              <span className="h-1.5 w-1.5 rounded-full bg-primary" aria-hidden="true" />
+        <section className="hero-surface relative overflow-hidden section-padding pt-32 md:pt-40">
+          <div className="hero-grid pointer-events-none absolute inset-0" aria-hidden="true" />
+          <div className="container-wide relative text-center">
+            <p className="mx-auto mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-sm text-white/80 backdrop-blur-sm animate-fade-in">
+              <span className="h-1.5 w-1.5 rounded-full bg-primary shadow-[0_0_8px_hsl(var(--primary))]" aria-hidden="true" />
               {t("home.hero.eyebrow")}
             </p>
-            <h1 className="mx-auto max-w-4xl text-balance text-foreground mb-6 animate-fade-in">
+            <h1 className="mx-auto max-w-4xl text-balance text-white mb-6 animate-fade-in">
               {t("home.hero.title")}
             </h1>
             <p
-              className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-10 leading-relaxed animate-fade-in"
+              className="text-lg md:text-xl text-white/70 max-w-3xl mx-auto mb-10 leading-relaxed animate-fade-in"
               style={{ animationDelay: "0.1s" }}
             >
               {t("home.hero.subtitle")}
@@ -153,29 +154,34 @@ const HomePage = () => {
               className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in"
               style={{ animationDelay: "0.2s" }}
             >
-              <Button variant="hero" size="lg" asChild>
+              <Button variant="cta" size="lg" className="shadow-lg shadow-cta/40" asChild>
                 <Link href={signupHref}>
                   {t("home.hero.primaryCta")}
                   <ArrowRight />
                 </Link>
               </Button>
-              <Button variant="hero-secondary" size="lg" onClick={() => setIsFormDialogOpen(true)}>
+              <Button
+                variant="hero-secondary"
+                size="lg"
+                className="border-white/20 bg-white/5 text-white hover:bg-white/10"
+                onClick={() => setIsFormDialogOpen(true)}
+              >
                 {t("home.hero.secondaryCta")}
               </Button>
             </div>
-            <p className="mt-5 text-sm text-muted-foreground animate-fade-in" style={{ animationDelay: "0.3s" }}>
+            <p className="mt-5 text-sm text-white/60 animate-fade-in" style={{ animationDelay: "0.3s" }}>
               {t("home.hero.note")}
             </p>
 
             <div className="mt-16 md:mt-20">
-              <p className="mb-5 text-xs font-medium uppercase tracking-[0.12em] text-muted-foreground">
+              <p className="mb-5 text-xs font-medium uppercase tracking-[0.12em] text-white/50">
                 {t("home.hero.worksWith")}
               </p>
               <ul className="flex flex-wrap items-center justify-center gap-3">
                 {range(PLATFORM_COUNT).map((i) => (
                   <li
                     key={i}
-                    className="rounded-md border border-border-subtle bg-background px-4 py-2 text-sm font-medium text-secondary-foreground"
+                    className="rounded-md border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-white/80"
                   >
                     {t(`home.platforms.${i}`)}
                   </li>
@@ -185,11 +191,11 @@ const HomePage = () => {
           </div>
         </section>
 
-        <DemoStatusSection
+        {/* <DemoStatusSection
           title={t("watch.title")}
           desc={t("watch.desc")}
           iframeSrc="https://pagepilot-demo-viewer-prod.web.app//?tid=694b38d3eb30f6c0435ac461&did=6a186da79e47067dfe4e305a&type=demo&status=live"
-        />
+        /> */}
 
         {/* Problem → solution */}
         <section className="section-padding bg-surface-subtle">
@@ -243,7 +249,7 @@ const HomePage = () => {
                       <span className="font-medium text-secondary-foreground">{t("home.features.alternativeLabel")}:</span>{" "}
                       {t(`home.features.${key}.alternatives`)}
                     </p>
-                    <Button variant="link" className="mt-2 h-auto px-0" asChild>
+                    <Button variant="link" className="mt-2 h-auto px-0 text-cta hover:text-cta-hover" asChild>
                       <Link href={signupHref}>
                         {t("home.hero.primaryCta")}
                         <ArrowRight />
@@ -372,7 +378,7 @@ const HomePage = () => {
             <h2 className="text-foreground mb-6">{t("home.cta.title")}</h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">{t("home.cta.desc")}</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" asChild>
+              <Button variant="cta" size="lg" asChild>
                 <Link href={signupHref}>{t("home.cta.primary")}</Link>
               </Button>
               <Button
