@@ -25,7 +25,9 @@ function getRecord(value: unknown): Record<string, unknown> | null {
 
 function getTenantName(tenant: unknown): string {
   const record = getRecord(tenant);
-  const name = record?.name ?? record?.tenantName ?? record?.displayName ?? record?.title ?? record?.organizationName;
+  const tenantRecord = getRecord(record?.tenant);
+  const nestedTenantRecord = getRecord(tenantRecord?.tenant);
+  const name = nestedTenantRecord?.name;
   return typeof name === "string" ? name : "";
 }
 
