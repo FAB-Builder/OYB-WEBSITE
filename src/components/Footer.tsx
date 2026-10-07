@@ -1,10 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import Image from "next/image";
 import { LeadFormDialog } from "@/components/LeadFormDialog";
 import { useTranslations, useLocale } from "@/i18n/client";
+import { ctaEvent, linkEvent } from "@/lib/analytics";
+import { TrackedButton, TrackedLink } from "@/components/analytics/withTracking";
 
 interface FooterProps {
   localeOverride?: string;
@@ -21,24 +22,32 @@ const Footer = ({ localeOverride }: FooterProps) => {
       <div className="container-wide">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo */}
-          <Link href={`/${locale}/`} aria-label="OYB – Own Your Brand">
+          <TrackedLink href={`/${locale}/`} aria-label="OYB – Own Your Brand" tracking={linkEvent('logo', 'footer', `/${locale}/`)}>
             <Image src="/logo.svg" alt="OYB – Own Your Brand" width={112} height={48} className="h-12 w-auto" />
-          </Link>
+          </TrackedLink>
 
           {/* Links */}
           <nav className="flex items-center gap-6">
-            <Link href={`/${locale}/privacy`} className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <TrackedLink
+              href={`/${locale}/privacy`}
+              tracking={linkEvent('privacy', 'footer', `/${locale}/privacy`)}
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               {t('footer.privacy')}
-            </Link>
-            <Link href={`/${locale}/terms`} className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            </TrackedLink>
+            <TrackedLink
+              href={`/${locale}/terms`}
+              tracking={linkEvent('terms', 'footer', `/${locale}/terms`)}
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               {t('footer.terms')}
-            </Link>
-            <button 
+            </TrackedLink>
+            <TrackedButton
+              variant="nav"
+              className="h-auto p-0 text-sm text-muted-foreground hover:text-foreground transition-colors"
+              tracking={ctaEvent('contact_sales', 'footer', t('footer.contact'))}
               onClick={() => setIsFormDialogOpen(true)}
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               {t('footer.contact')}
-            </button>
+            </TrackedButton>
           </nav>
 
           {/* Copyright */}

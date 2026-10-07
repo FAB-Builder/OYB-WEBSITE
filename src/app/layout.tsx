@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Toaster } from "@/components/ui/toaster";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { SITE_URL } from "@/lib/seo";
 import enText from "../../public/locales/en.json";
 import "./globals.css";
@@ -40,6 +41,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         {children}
         <Toaster />
+        <GoogleAnalytics />
       </body>
     </html>
   );

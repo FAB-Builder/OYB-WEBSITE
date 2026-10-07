@@ -15,6 +15,7 @@ import {
 } from "@/components/ui/form";
 import { useToast } from "@/hooks/use-toast";
 import { Loader2 } from "lucide-react";
+import { trackLeadSubmit } from "@/lib/analytics";
 
 interface LeadFormData {
   firstName: string;
@@ -74,6 +75,7 @@ export const LeadForm = ({ onSuccess }: LeadFormProps) => {
         throw new Error(`API error: ${response.statusText}`);
       }
 
+      trackLeadSubmit("success");
       toast({
         title: "Thank you!",
         description: "We’ve received your request and will be in touch soon.",
@@ -83,6 +85,7 @@ export const LeadForm = ({ onSuccess }: LeadFormProps) => {
       onSuccess?.();
     } catch (error) {
       console.error("Form submission error:", error);
+      trackLeadSubmit("error");
       toast({
         variant: "destructive",
         title: "Something went wrong",

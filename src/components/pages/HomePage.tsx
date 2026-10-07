@@ -19,13 +19,14 @@ import {
   Users,
   X,
 } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { LeadFormDialog } from "@/components/LeadFormDialog";
 import { CalendlyDialog } from "@/components/CalendlyDialog";
 import DemoStatusSection from "@/components/pages/DemoStatusSection";
 import FeatureVisual, { type FeatureVisualKind } from "@/components/home/FeatureVisual";
 
 import { useLocale, useTranslations } from "@/i18n/client";
+import { ctaEvent } from "@/lib/analytics";
+import { TrackedButton } from "@/components/analytics/withTracking";
 import Header from "../Header";
 import Footer from "../Footer";
 
@@ -154,20 +155,27 @@ const HomePage = () => {
               className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in"
               style={{ animationDelay: "0.2s" }}
             >
-              <Button variant="cta" size="lg" className="shadow-lg shadow-cta/40" asChild>
+              <TrackedButton
+                variant="cta"
+                size="lg"
+                className="shadow-lg shadow-cta/40"
+                asChild
+                tracking={ctaEvent("start_free", "hero", t("home.hero.primaryCta"))}
+              >
                 <Link href={signupHref}>
                   {t("home.hero.primaryCta")}
                   <ArrowRight />
                 </Link>
-              </Button>
-              <Button
+              </TrackedButton>
+              <TrackedButton
                 variant="hero-secondary"
                 size="lg"
                 className="border-white/20 bg-white/5 text-white hover:bg-white/10"
+                tracking={ctaEvent("contact_sales", "hero", t("home.hero.secondaryCta"))}
                 onClick={() => setIsFormDialogOpen(true)}
               >
                 {t("home.hero.secondaryCta")}
-              </Button>
+              </TrackedButton>
             </div>
             <p className="mt-5 text-sm text-white/60 animate-fade-in" style={{ animationDelay: "0.3s" }}>
               {t("home.hero.note")}
@@ -249,12 +257,17 @@ const HomePage = () => {
                       <span className="font-medium text-secondary-foreground">{t("home.features.alternativeLabel")}:</span>{" "}
                       {t(`home.features.${key}.alternatives`)}
                     </p>
-                    <Button variant="link" className="mt-2 h-auto px-0 text-cta hover:text-cta-hover" asChild>
+                    <TrackedButton
+                      variant="link"
+                      className="mt-2 h-auto px-0 text-cta hover:text-cta-hover"
+                      asChild
+                      tracking={ctaEvent("start_free", `feature_${key}`, t("home.hero.primaryCta"))}
+                    >
                       <Link href={signupHref}>
                         {t("home.hero.primaryCta")}
                         <ArrowRight />
                       </Link>
-                    </Button>
+                    </TrackedButton>
                   </div>
                   <div className={index % 2 === 1 ? "md:order-1" : undefined}>
                     <FeatureVisual kind={key} />
@@ -378,17 +391,18 @@ const HomePage = () => {
             <h2 className="text-foreground mb-6">{t("home.cta.title")}</h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">{t("home.cta.desc")}</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="cta" size="lg" asChild>
+              <TrackedButton variant="cta" size="lg" asChild tracking={ctaEvent("start_free", "final_cta", t("home.cta.primary"))}>
                 <Link href={signupHref}>{t("home.cta.primary")}</Link>
-              </Button>
-              <Button
+              </TrackedButton>
+              <TrackedButton
                 variant="outline"
                 size="lg"
                 className="border-input bg-background hover:bg-muted text-foreground"
+                tracking={ctaEvent("book_demo", "final_cta", t("home.cta.secondary"))}
                 onClick={() => setIsCalendlyOpen(true)}
               >
                 {t("home.cta.secondary")}
-              </Button>
+              </TrackedButton>
             </div>
           </div>
         </section>

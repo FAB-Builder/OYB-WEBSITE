@@ -7,6 +7,7 @@ import { useTranslations, useLocale } from "@/i18n/client";
 import localeManifest from "../../public/locales/manifest.json";
 import Link from "next/link";
 import Image from "next/image";
+import { trackCtaClick, trackLanguageChange, trackLinkClick } from "@/lib/analytics";
 
 const navItems = ["features", "how", "who", "why", "faq"] as const;
 
@@ -45,6 +46,7 @@ const Header = ({ onNavClick, localeOverride }: HeaderProps) => {
     const element = document.getElementById(sectionId);
     
     if (element) {
+      trackLinkClick(sectionId, 'header_nav', `#${sectionId}`);
       // Element exists on current page, scroll to it
       if (onNavClick) {
         onNavClick(sectionId);
@@ -56,14 +58,18 @@ const Header = ({ onNavClick, localeOverride }: HeaderProps) => {
       }
     } else {
       // Element doesn't exist on current page, navigate to home with hash
-      window.location.href = `/${locale}/#${sectionId}`;
+      trackLinkClick(sectionId, 'header_nav', `/${locale}/#${sectionId}`, () => {
+        window.location.href = `/${locale}/#${sectionId}`;
+      });
     }
   };
 
   const handleNavigate = () => {
     if (typeof window !== 'undefined') {
       window.localStorage.setItem('preferredLocale', locale);
-      window.location.href = `/${locale}/auth/signin`;
+      trackCtaClick('sign_in', 'header', t('header.signIn'), () => {
+        window.location.href = `/${locale}/auth/signin`;
+      });
     }
   };
 
@@ -79,7 +85,9 @@ const Header = ({ onNavClick, localeOverride }: HeaderProps) => {
       segments.splice(1, 0, lang);
     }
     const newPath = segments.join('/');
-    window.location.href = `${newPath}${window.location.search}${window.location.hash}`;
+    trackLanguageChange(locale, lang, () => {
+      window.location.href = `${newPath}${window.location.search}${window.location.hash}`;
+    });
   };
 
   return (
@@ -87,7 +95,12 @@ const Header = ({ onNavClick, localeOverride }: HeaderProps) => {
       <div className="container-wide">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href={`/${locale}/`} className="flex items-center" aria-label="OYB – Own Your Brand">
+          <Link
+            href={`/${locale}/`}
+            className="flex items-center"
+            aria-label="OYB – Own Your Brand"
+            onClick={() => trackLinkClick('logo', 'header', `/${locale}/`)}
+          >
             <Image src="/logo-mark.svg" alt="OYB – Own Your Brand" width={88} height={30} className="h-7 w-auto" priority />
           </Link>
 
@@ -123,7 +136,11 @@ const Header = ({ onNavClick, localeOverride }: HeaderProps) => {
             <Button variant="ghost" size="sm" className="hidden sm:inline-flex" onClick={handleNavigate}>
               {t('header.signIn')}
             </Button>
-            <Button variant="cta" size="sm" onClick={() => setIsCalendlyOpen(true)}>
+            <Button variant="cta" size="sm" onClick={() => {
+                trackCtaClick('book_demo', 'header', t('header.bookDemo'));
+                setIsCalendlyOpen(true);
+              }}
+            >
               {t('header.bookDemo')}
             </Button>
           </div>
