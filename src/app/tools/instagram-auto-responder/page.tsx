@@ -1,22 +1,27 @@
-import ClientWorkflowPage from "@/components/authentication/ClientWorkflowPage";
+"use client";
+
+import { useEffect, useState } from "react";
 import WorkflowLocaleProvider from "@/components/WorkflowLocaleProvider";
 
-const toolSlugs = ["google-business-profile", "instagram-auto-responder"];
+export default function InstaToolRoute() {
+  const [iframeSrc, setIframeSrc] = useState<string | null>(null);
 
-export function generateStaticParams() {
-  return toolSlugs.map((tool) => ({ tool }));
-}
+  useEffect(() => {
+    const timeoutId = window.setTimeout(() => {
+      const jwt = window.localStorage.getItem("jwt");
+      const tenantId = window.localStorage.getItem("tenantId");
 
-type PageProps = {
-  params: Promise<{ tool: string }>;
-};
+      setIframeSrc(
+        `https://cs.fabbuilder.com/cs-app/instagram/?tenantId=${tenantId}&theme=polar-green&mode=light&showInApp=true&page=logs&jwt=${jwt}`,
+      );
+    }, 0);
 
-export default async function ToolRoute({ params }: PageProps) {
-  const { tool } = await params;
+    return () => window.clearTimeout(timeoutId);
+  }, []);
 
   return (
     <WorkflowLocaleProvider>
-      <ClientWorkflowPage page="tool" slug={tool} />
+      {iframeSrc && <iframe src={iframeSrc} className="w-full h-screen" />}
     </WorkflowLocaleProvider>
   );
 }

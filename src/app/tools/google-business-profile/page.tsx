@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import WorkflowLocaleProvider from "@/components/WorkflowLocaleProvider";
 
-export default function ToolRoute() {
+export default function GBPToolRoute() {
   const [iframeSrc, setIframeSrc] = useState<string | null>(null);
 
   useEffect(() => {
