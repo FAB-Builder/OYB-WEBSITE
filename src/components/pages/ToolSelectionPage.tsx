@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ArrowRight, Filter, MessageCircle, MapPin } from "lucide-react";
+import { ArrowRight, CalendarDays, Filter, MapPin, Megaphone, MessageCircle, MessageSquare, ThumbsUp, Video, Workflow } from "lucide-react";
 import { useLocale, useTranslations } from "@/i18n/client";
 
 const tools = [
@@ -21,6 +21,36 @@ const tools = [
     slug: "funnels",
     translationKey: "funnels",
     Icon: Filter,
+  },
+  {
+    slug: "workflow",
+    translationKey: "workflow",
+    Icon: Workflow,
+  },
+  {
+    slug: "campaign",
+    translationKey: "campaign",
+    Icon: Megaphone,
+  },
+  {
+    slug: "messenger",
+    translationKey: "messenger",
+    Icon: MessageSquare,
+  },
+  {
+    slug: "calendly",
+    translationKey: "calendly",
+    Icon: CalendarDays,
+  },
+  {
+    slug: "facebook",
+    translationKey: "facebook",
+    Icon: ThumbsUp,
+  },
+  {
+    slug: "zoom",
+    translationKey: "zoom",
+    Icon: Video,
   },
 ] as const;
 

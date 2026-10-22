@@ -124,6 +124,30 @@
     "funnels": {
       "title": "Funnels",
       "description": "Build and manage your sales funnels."
+    },
+    "workflow": {
+      "title": "Workflow",
+      "description": "Automate your business workflows."
+    },
+    "campaign": {
+      "title": "Campaign",
+      "description": "Create and manage marketing campaigns."
+    },
+    "messenger": {
+      "title": "Messenger",
+      "description": "Manage your Messenger conversations."
+    },
+    "calendly": {
+      "title": "Calendly",
+      "description": "Manage bookings and scheduling with Calendly."
+    },
+    "facebook": {
+      "title": "Facebook",
+      "description": "Manage your Facebook presence."
+    },
+    "zoom": {
+      "title": "Zoom",
+      "description": "Manage your Zoom meetings."
     }
   },
   "toolPage": {
@@ -138,6 +162,24 @@
     },
     "funnels": {
       "description": "Your Funnels tool is ready to open."
+    },
+    "workflow": {
+      "description": "Your Workflow tool is ready to open."
+    },
+    "campaign": {
+      "description": "Your Campaign tool is ready to open."
+    },
+    "messenger": {
+      "description": "Your Messenger tool is ready to open."
+    },
+    "calendly": {
+      "description": "Your Calendly tool is ready to open."
+    },
+    "facebook": {
+      "description": "Your Facebook tool is ready to open."
+    },
+    "zoom": {
+      "description": "Your Zoom tool is ready to open."
     }
   },
   "header": {

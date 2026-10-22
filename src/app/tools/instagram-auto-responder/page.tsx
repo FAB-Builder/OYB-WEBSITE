@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import WorkflowLocaleProvider from "@/components/WorkflowLocaleProvider";
 
 export default function InstaToolRoute() {
   const [iframeSrc, setIframeSrc] = useState<string | null>(null);
@@ -20,8 +19,6 @@ export default function InstaToolRoute() {
   }, []);
 
   return (
-    <WorkflowLocaleProvider>
-      {iframeSrc && <iframe src={iframeSrc} className="w-full h-screen" />}
-    </WorkflowLocaleProvider>
+    <>{iframeSrc && <iframe src={iframeSrc} className="block w-full h-[calc(100dvh-4rem)]" />}</>
   );
 }

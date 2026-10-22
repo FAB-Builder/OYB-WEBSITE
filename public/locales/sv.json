@@ -124,6 +124,30 @@
     "funnels": {
       "title": "Funnels",
       "description": "Bygg och hantera dina säljtrattar."
+    },
+    "workflow": {
+      "title": "Workflow",
+      "description": "Automatisera dina affärsflöden."
+    },
+    "campaign": {
+      "title": "Campaign",
+      "description": "Skapa och hantera marknadsföringskampanjer."
+    },
+    "messenger": {
+      "title": "Messenger",
+      "description": "Hantera dina Messenger-konversationer."
+    },
+    "calendly": {
+      "title": "Calendly",
+      "description": "Hantera bokningar och schemaläggning med Calendly."
+    },
+    "facebook": {
+      "title": "Facebook",
+      "description": "Hantera din närvaro på Facebook."
+    },
+    "zoom": {
+      "title": "Zoom",
+      "description": "Hantera dina Zoom-möten."
     }
   },
   "toolPage": {
@@ -138,6 +162,24 @@
     },
     "funnels": {
       "description": "Ditt Funnels-verktyg är redo att öppnas."
+    },
+    "workflow": {
+      "description": "Ditt Workflow-verktyg är redo att öppnas."
+    },
+    "campaign": {
+      "description": "Ditt Campaign-verktyg är redo att öppnas."
+    },
+    "messenger": {
+      "description": "Ditt Messenger-verktyg är redo att öppnas."
+    },
+    "calendly": {
+      "description": "Ditt Calendly-verktyg är redo att öppnas."
+    },
+    "facebook": {
+      "description": "Ditt Facebook-verktyg är redo att öppnas."
+    },
+    "zoom": {
+      "description": "Ditt Zoom-verktyg är redo att öppnas."
     }
   },
   "header": {

@@ -13,6 +13,30 @@ const toolMeta: Record<string, { title: string; description: string }> = {
     title: "Funnels",
     description: "Build and manage sales funnels for your workspace.",
   },
+  workflow: {
+    title: "Workflow",
+    description: "Automate your business workflows.",
+  },
+  campaign: {
+    title: "Campaign",
+    description: "Create and manage marketing campaigns.",
+  },
+  messenger: {
+    title: "Messenger",
+    description: "Manage your Messenger conversations.",
+  },
+  calendly: {
+    title: "Calendly",
+    description: "Manage bookings and scheduling with Calendly.",
+  },
+  facebook: {
+    title: "Facebook",
+    description: "Manage your Facebook presence.",
+  },
+  zoom: {
+    title: "Zoom",
+    description: "Manage your Zoom meetings.",
+  },
 };
 
 type ToolPageProps = {
