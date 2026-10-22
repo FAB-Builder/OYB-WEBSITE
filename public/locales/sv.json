@@ -120,6 +120,10 @@
     "instagramAutoResponder": {
       "title": "Instagram Auto Responder",
       "description": "Hantera automatiska svar på Instagram-meddelanden."
+    },
+    "funnels": {
+      "title": "Funnels",
+      "description": "Bygg och hantera dina säljtrattar."
     }
   },
   "toolPage": {
@@ -131,6 +135,9 @@
     },
     "instagramAutoResponder": {
       "description": "Ditt Instagram Auto Responder-verktyg är redo att öppnas."
+    },
+    "funnels": {
+      "description": "Ditt Funnels-verktyg är redo att öppnas."
     }
   },
   "header": {

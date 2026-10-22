@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ArrowRight, MessageCircle, MapPin } from "lucide-react";
+import { ArrowRight, Filter, MessageCircle, MapPin } from "lucide-react";
 import { useLocale, useTranslations } from "@/i18n/client";
 
 const tools = [
@@ -16,6 +16,11 @@ const tools = [
     slug: "instagram-auto-responder",
     translationKey: "instagramAutoResponder",
     Icon: MessageCircle,
+  },
+  {
+    slug: "funnels",
+    translationKey: "funnels",
+    Icon: Filter,
   },
 ] as const;
 

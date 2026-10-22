@@ -9,6 +9,10 @@ const toolMeta: Record<string, { title: string; description: string }> = {
     title: "Instagram Auto Responder",
     description: "Configure automated Instagram responses for your team and campaigns.",
   },
+  funnels: {
+    title: "Funnels",
+    description: "Build and manage sales funnels for your workspace.",
+  },
 };
 
 type ToolPageProps = {

@@ -120,6 +120,10 @@
     "instagramAutoResponder": {
       "title": "Instagram Auto Responder",
       "description": "Manage automated responses to Instagram messages."
+    },
+    "funnels": {
+      "title": "Funnels",
+      "description": "Build and manage your sales funnels."
     }
   },
   "toolPage": {
@@ -131,6 +135,9 @@
     },
     "instagramAutoResponder": {
       "description": "Your Instagram Auto Responder tool is ready to open."
+    },
+    "funnels": {
+      "description": "Your Funnels tool is ready to open."
     }
   },
   "header": {
