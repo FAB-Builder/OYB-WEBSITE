@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ArrowRight, CalendarDays, Filter, MapPin, Megaphone, MessageCircle, MessageSquare, ThumbsUp, Video, Workflow } from "lucide-react";
+import { ArrowRight, CalendarDays, FileText, Filter, Globe, MapPin, Megaphone, MessageCircle, MessageSquare, MonitorPlay, Presentation, Sparkles, ThumbsUp, Video, Workflow } from "lucide-react";
 import { useLocale, useTranslations } from "@/i18n/client";
 
 const tools = [
@@ -51,6 +51,31 @@ const tools = [
     slug: "zoom",
     translationKey: "zoom",
     Icon: Video,
+  },
+  {
+    slug: "lead-forms",
+    translationKey: "leadForms",
+    Icon: FileText,
+  },
+  {
+    slug: "website-builder",
+    translationKey: "websiteBuilder",
+    Icon: Globe,
+  },
+  {
+    slug: "recorded-webinars",
+    translationKey: "recordedWebinars",
+    Icon: MonitorPlay,
+  },
+  {
+    slug: "product-demos",
+    translationKey: "productDemos",
+    Icon: Presentation,
+  },
+  {
+    slug: "ai-postings",
+    translationKey: "aiPostings",
+    Icon: Sparkles,
   },
 ] as const;
 

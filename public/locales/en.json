@@ -148,6 +148,26 @@
     "zoom": {
       "title": "Zoom",
       "description": "Manage your Zoom meetings."
+    },
+    "leadForms": {
+      "title": "Lead Forms",
+      "description": "Create forms that capture and qualify new leads."
+    },
+    "websiteBuilder": {
+      "title": "Website Builder",
+      "description": "Design and publish websites for your business."
+    },
+    "recordedWebinars": {
+      "title": "Recorded Webinars",
+      "description": "Host and share on-demand webinar recordings."
+    },
+    "productDemos": {
+      "title": "Product Demos",
+      "description": "Create and share product demos with prospects."
+    },
+    "aiPostings": {
+      "title": "AI and Postings",
+      "description": "Generate and schedule social posts with AI."
     }
   },
   "toolPage": {
@@ -180,6 +200,21 @@
     },
     "zoom": {
       "description": "Your Zoom tool is ready to open."
+    },
+    "leadForms": {
+      "description": "Your Lead Forms tool is ready to open."
+    },
+    "websiteBuilder": {
+      "description": "Your Website Builder tool is ready to open."
+    },
+    "recordedWebinars": {
+      "description": "Your Recorded Webinars tool is ready to open."
+    },
+    "productDemos": {
+      "description": "Your Product Demos tool is ready to open."
+    },
+    "aiPostings": {
+      "description": "Your AI and Postings tool is ready to open."
     }
   },
   "header": {

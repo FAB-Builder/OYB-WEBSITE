@@ -148,6 +148,26 @@
     "zoom": {
       "title": "Zoom",
       "description": "Hantera dina Zoom-möten."
+    },
+    "leadForms": {
+      "title": "Leadformulär",
+      "description": "Skapa formulär som fångar och kvalificerar nya leads."
+    },
+    "websiteBuilder": {
+      "title": "Webbplatsbyggare",
+      "description": "Designa och publicera webbplatser för ditt företag."
+    },
+    "recordedWebinars": {
+      "title": "Inspelade webbinarier",
+      "description": "Lägg upp och dela webbinarieinspelningar on demand."
+    },
+    "productDemos": {
+      "title": "Produktdemos",
+      "description": "Skapa och dela produktdemos med potentiella kunder."
+    },
+    "aiPostings": {
+      "title": "AI och inlägg",
+      "description": "Skapa och schemalägg inlägg i sociala medier med AI."
     }
   },
   "toolPage": {
@@ -180,6 +200,21 @@
     },
     "zoom": {
       "description": "Ditt Zoom-verktyg är redo att öppnas."
+    },
+    "leadForms": {
+      "description": "Ditt Leadformulär-verktyg är redo att öppnas."
+    },
+    "websiteBuilder": {
+      "description": "Ditt Webbplatsbyggare-verktyg är redo att öppnas."
+    },
+    "recordedWebinars": {
+      "description": "Ditt verktyg för inspelade webbinarier är redo att öppnas."
+    },
+    "productDemos": {
+      "description": "Ditt Produktdemos-verktyg är redo att öppnas."
+    },
+    "aiPostings": {
+      "description": "Ditt AI och inlägg-verktyg är redo att öppnas."
     }
   },
   "header": {

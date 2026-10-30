@@ -37,6 +37,26 @@ const toolMeta: Record<string, { title: string; description: string }> = {
     title: "Zoom",
     description: "Manage your Zoom meetings.",
   },
+  "lead-forms": {
+    title: "Lead Forms",
+    description: "Create forms that capture and qualify new leads.",
+  },
+  "website-builder": {
+    title: "Website Builder",
+    description: "Design and publish websites for your business.",
+  },
+  "recorded-webinars": {
+    title: "Recorded Webinars",
+    description: "Host and share on-demand webinar recordings.",
+  },
+  "product-demos": {
+    title: "Product Demos",
+    description: "Create and share product demos with prospects.",
+  },
+  "ai-postings": {
+    title: "AI and Postings",
+    description: "Generate and schedule social posts with AI.",
+  },
 };
 
 type ToolPageProps = {
