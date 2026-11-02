@@ -1,0 +1,62 @@
+# TEMPORARY: deploys this frontend to the DR Firebase project fab-builder-dr-1, site oyb-website-dr1.
+#
+# Run on demand: Actions -> "Deploy to DR Firebase (temporary)" -> Run workflow.
+# Build steps mirror .github/workflows/main.yml; that production workflow is not changed.
+# Self-contained: maps hosting target "oyb-website" to oyb-website-dr1 on the runner (firebase target:apply),
+# so it does not need the .firebaserc change to be merged.
+# Credentials: secret GCP_CREDENTIALS_DR (service account with Firebase Hosting Admin on fab-builder-dr-1);
+# falls back to GCP_CREDENTIALS when GCP_CREDENTIALS_DR is not set.
+name: Deploy to DR Firebase (temporary)
+
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: Branch, tag or commit to deploy
+        required: true
+        default: main
+
+concurrency:
+  group: dr-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Build and deploy to fab-builder-dr-1 (oyb-website-dr1)
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    defaults:
+      run:
+        working-directory: .
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref }}
+
+      - name: Install NodeJS
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20.x"
+
+      - name: Install Dependencies
+        run: npm install --ignore-peer --force
+
+      - name: Build
+        env:
+          NODE_OPTIONS: "--max_old_space_size=4096"
+        run: npm run build
+
+      - name: Map hosting target to the DR site
+        uses: w9jds/firebase-action@v12.8.0
+        with:
+          args: target:apply hosting oyb-website oyb-website-dr1 --project fab-builder-dr-1
+        env:
+          GCP_SA_KEY: ${{ secrets.GCP_CREDENTIALS_DR || secrets.GCP_CREDENTIALS }}
+
+      - name: Deploy to Firebase (fab-builder-dr-1)
+        uses: w9jds/firebase-action@v12.8.0
+        with:
+          args: deploy --project fab-builder-dr-1 --only hosting:oyb-website
+        env:
+          GCP_SA_KEY: ${{ secrets.GCP_CREDENTIALS_DR || secrets.GCP_CREDENTIALS }}
