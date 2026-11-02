@@ -1,0 +1,84 @@
+# Publishes this frontend's production build as a static bundle for the DR server.
+#
+# Run on demand: Actions -> "Publish DR bundle" -> Run workflow.
+# Build steps mirror .github/workflows/main.yml. Nothing is deployed; production hosting is not touched.
+# Output: release "dr-latest" (pre-release, never marked Latest), replaced on every run, with
+#   dr-bundle.tar.gz   the build output folder (out/)
+#   dr-bundle.json     commit, ref, build time and run link
+# The DR server's setup script downloads dr-bundle.tar.gz instead of building on the server.
+name: Publish DR bundle
+
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: Branch, tag or commit to build
+        required: true
+        default: main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dr-bundle
+  cancel-in-progress: false
+
+defaults:
+  run:
+    working-directory: .
+
+jobs:
+  publish:
+    name: Build and publish DR bundle
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      OUTPUT_DIR: out
+      RELEASE_TAG: dr-latest
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref }}
+
+      - name: Install NodeJS
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20.x"
+
+      - name: Install Dependencies
+        run: npm install --ignore-peer --force
+
+      - name: Build
+        env:
+          NODE_OPTIONS: "--max_old_space_size=4096"
+        run: npm run build
+
+      - name: Package build output
+        env:
+          REF: ${{ inputs.ref }}
+        run: |
+          test -f "$OUTPUT_DIR/index.html" || { echo "::error::$OUTPUT_DIR/index.html not found"; exit 1; }
+          out="$RUNNER_TEMP/dr-bundle" && rm -rf "$out" && mkdir -p "$out"
+          tar -czf "$out/dr-bundle.tar.gz" -C "$OUTPUT_DIR" .
+          printf '{"commit": "%s", "ref": "%s", "built_at": "%s", "run": "%s"}\n' \
+            "$(git rev-parse HEAD)" "$REF" "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "$RUN_URL" > "$out/dr-bundle.json"
+          echo "BUNDLE_DIR=$out" >> "$GITHUB_ENV"
+          echo "BUNDLE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+
+      - name: Publish release dr-latest
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REF: ${{ inputs.ref }}
+        run: |
+          gh release delete "$RELEASE_TAG" --cleanup-tag --yes 2>/dev/null || true
+          gh release create "$RELEASE_TAG" "$BUNDLE_DIR/dr-bundle.tar.gz" "$BUNDLE_DIR/dr-bundle.json" \
+            --target "$BUNDLE_SHA" --prerelease --latest=false \
+            --title "DR bundle ($REF @ ${BUNDLE_SHA:0:12})" \
+            --notes "Static build for the DR server. Built from \`$REF\` at \`$BUNDLE_SHA\` by [this run]($RUN_URL)."
+
+      - name: Summary
+        run: |
+          echo "### Published DR bundle" >> "$GITHUB_STEP_SUMMARY"
+          echo "Release \`$RELEASE_TAG\` built from \`${BUNDLE_SHA:0:12}\` ($(du -h "$BUNDLE_DIR/dr-bundle.tar.gz" | cut -f1))" >> "$GITHUB_STEP_SUMMARY"
