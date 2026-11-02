@@ -1,12 +1,20 @@
 {
   "projects": {
-    "default": "fab-builder-production"
+    "default": "fab-builder-production",
+    "fab-builder-dr-1": "fab-builder-dr-1"
   },
   "targets": {
     "fab-builder-production": {
       "hosting": {
         "oyb-website": [
           "oyb-website"
+        ]
+      }
+    },
+    "fab-builder-dr-1": {
+      "hosting": {
+        "oyb-website": [
+          "oyb-website-dr1"
         ]
       }
     }
