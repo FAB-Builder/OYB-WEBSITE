@@ -96,7 +96,45 @@
     "submitting": "Please wait...",
     "requestError": "We couldn't complete your request. Please try again.",
     "tokenError": "The authentication response did not include a JWT.",
-    "profileError": "Your account was authenticated, but we couldn't load your profile."
+    "profileError": "Your account was authenticated, but we couldn't load your profile.",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "confirmPassword": "Confirm password",
+    "firstNameRequired": "First name is required.",
+    "emailInvalid": "Enter a valid email address.",
+    "passwordWeak": "Password doesn't meet all the requirements below.",
+    "passwordMismatch": "Passwords do not match.",
+    "passwordRules": {
+      "length": "At least 8 characters",
+      "uppercase": "One uppercase letter",
+      "lowercase": "One lowercase letter",
+      "number": "One number",
+      "symbol": "One special character"
+    },
+    "methodLabel": "Choose how to continue",
+    "methods": {
+      "email": "Email",
+      "whatsapp": "WhatsApp"
+    },
+    "termsRequired": "Please accept the Terms of Service and Privacy Policy.",
+    "terms": {
+      "prefix": "I agree to the",
+      "terms": "Terms of Service",
+      "and": "and",
+      "privacy": "Privacy Policy"
+    },
+    "whatsapp": {
+      "phone": "WhatsApp number",
+      "phoneHint": "Include your country code, e.g. +46.",
+      "phoneInvalid": "Enter a valid phone number including the country code, e.g. +46701234567.",
+      "sendCode": "Send code on WhatsApp",
+      "code": "Verification code",
+      "codeSent": "We sent a 6-digit code to {phone} on WhatsApp.",
+      "codeInvalid": "Enter the 6-digit code we sent you.",
+      "changePhone": "Change number",
+      "resend": "Resend code",
+      "resendIn": "Resend in {time}"
+    }
   },
   "workspace": {
     "title": "Choose a workspace",
@@ -106,7 +144,16 @@
     "loading": "Loading workspaces...",
     "empty": "No workspaces were found for this account.",
     "continue": "Continue",
-    "number": "Workspace {number}"
+    "number": "Workspace {number}",
+    "create": {
+      "label": "Create a workspace",
+      "placeholder": "Company or team name",
+      "action": "Create workspace",
+      "submitting": "Creating workspace...",
+      "required": "Workspace name is required.",
+      "tooLong": "Workspace name cannot be more than 50 characters.",
+      "error": "We couldn't create the workspace. Please try again."
+    }
   },
   "tools": {
     "title": "Choose a tool",

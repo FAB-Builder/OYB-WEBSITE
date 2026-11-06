@@ -96,7 +96,45 @@
     "submitting": "Vänta...",
     "requestError": "Begäran kunde inte slutföras. Försök igen.",
     "tokenError": "Autentiseringssvaret innehöll ingen JWT.",
-    "profileError": "Kontot autentiserades, men profilen kunde inte hämtas."
+    "profileError": "Kontot autentiserades, men profilen kunde inte hämtas.",
+    "firstName": "Förnamn",
+    "lastName": "Efternamn",
+    "confirmPassword": "Bekräfta lösenord",
+    "firstNameRequired": "Förnamn krävs.",
+    "emailInvalid": "Ange en giltig e-postadress.",
+    "passwordWeak": "Lösenordet uppfyller inte alla krav nedan.",
+    "passwordMismatch": "Lösenorden matchar inte.",
+    "passwordRules": {
+      "length": "Minst 8 tecken",
+      "uppercase": "En versal",
+      "lowercase": "En gemen",
+      "number": "En siffra",
+      "symbol": "Ett specialtecken"
+    },
+    "methodLabel": "Välj hur du vill fortsätta",
+    "methods": {
+      "email": "E-post",
+      "whatsapp": "WhatsApp"
+    },
+    "termsRequired": "Godkänn användarvillkoren och integritetspolicyn.",
+    "terms": {
+      "prefix": "Jag godkänner",
+      "terms": "användarvillkoren",
+      "and": "och",
+      "privacy": "integritetspolicyn"
+    },
+    "whatsapp": {
+      "phone": "WhatsApp-nummer",
+      "phoneHint": "Ange landsnummer, t.ex. +46.",
+      "phoneInvalid": "Ange ett giltigt telefonnummer med landsnummer, t.ex. +46701234567.",
+      "sendCode": "Skicka kod via WhatsApp",
+      "code": "Verifieringskod",
+      "codeSent": "Vi har skickat en 6-siffrig kod till {phone} via WhatsApp.",
+      "codeInvalid": "Ange den 6-siffriga koden vi skickade.",
+      "changePhone": "Byt nummer",
+      "resend": "Skicka koden igen",
+      "resendIn": "Skicka igen om {time}"
+    }
   },
   "workspace": {
     "title": "Välj en arbetsyta",
@@ -106,7 +144,16 @@
     "loading": "Laddar arbetsytor...",
     "empty": "Det finns inga arbetsytor för det här kontot.",
     "continue": "Fortsätt",
-    "number": "Arbetsyta {number}"
+    "number": "Arbetsyta {number}",
+    "create": {
+      "label": "Skapa en arbetsyta",
+      "placeholder": "Företags- eller teamnamn",
+      "action": "Skapa arbetsyta",
+      "submitting": "Skapar arbetsyta...",
+      "required": "Namn på arbetsytan krävs.",
+      "tooLong": "Namnet på arbetsytan får inte vara längre än 50 tecken.",
+      "error": "Arbetsytan kunde inte skapas. Försök igen."
+    }
   },
   "tools": {
     "title": "Välj ett verktyg",
