@@ -164,20 +164,42 @@ export default function WorkspaceSelectionPage() {
 			const created = asRecord(createResponse.data);
 			const createdId = created?.id ?? created?._id;
 
+			// From here on the workspace EXISTS on the backend. Never show the
+			// "couldn't create" error after this point, or a retry makes a duplicate.
+			let newTenant: unknown;
+
 			// 2. Fetch the profile again so it now includes the new workspace
-			const profileResponse = await axios.get<unknown>(`${API_HOST}/api/auth/me`, { headers });
-			window.localStorage.setItem("profile", JSON.stringify(profileResponse.data));
+			try {
+				const profileResponse = await axios.get<unknown>(`${API_HOST}/api/auth/me`, { headers });
+				window.localStorage.setItem("profile", JSON.stringify(profileResponse.data));
 
-			// 3. Find the new workspace in the profile (by id, else the one that wasn't there before)
-			const updatedTenants = getTenants(profileResponse.data);
-			// Ids of the workspaces the user had before creating this one
-			const previousIds = new Set(workspaces.map((workspace) => workspace.value));
-			const newTenant =
-				updatedTenants.find((item) => getWorkspaceValue(item) === String(createdId)) ??
-				updatedTenants.find((item) => !previousIds.has(getWorkspaceValue(item)));
+				// 3. Find the new workspace in the profile (by id, else the one that wasn't there before)
+				const updatedTenants = getTenants(profileResponse.data);
+				// Ids of the workspaces the user had before creating this one
+				const previousIds = new Set(workspaces.map((workspace) => workspace.value));
+				newTenant =
+					updatedTenants.find((item) => getWorkspaceValue(item) === String(createdId)) ??
+					updatedTenants.find((item) => !previousIds.has(getWorkspaceValue(item)));
+			} catch (profileError) {
+				if (isSessionExpired(profileError)) {
+					// The workspace is saved; it will be listed after signing in again
+					clearSession();
+					router.replace(`/${locale}/auth/signin`);
+					return;
+				}
+				// e.g. the network dropped: carry on with the create response below
+				console.error("Workspace created, but refreshing the profile failed:", profileError);
+			}
 
-			if (!newTenant) {
-				throw new Error("Workspace was created but is missing from the profile");
+			// Fallback: build the entry from the create response, in the same
+			// { tenant: { id, name } } shape the profile uses. The saved profile is
+			// refreshed the next time /workspaces opens.
+			if (!newTenant && created && createdId !== undefined) {
+				newTenant = { tenant: { ...created, id: String(createdId) } };
+			}
+
+			if (!newTenant || !getWorkspaceValue(newTenant)) {
+				throw new Error("Workspace was created but its id is missing");
 			}
 
 			// 4. Select it exactly the way continueToTools() does, then go to the tools
