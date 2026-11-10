@@ -106,7 +106,18 @@
     "loading": "Laddar arbetsytor...",
     "empty": "Det finns inga arbetsytor för det här kontot.",
     "continue": "Fortsätt",
-    "number": "Arbetsyta {number}"
+    "number": "Arbetsyta {number}",
+    "createTitle": "Skapa din första arbetsyta",
+    "createDescription": "Du har ingen arbetsyta än. Ge den ett namn för att komma igång.",
+    "nameLabel": "Arbetsytans namn",
+    "namePlaceholder": "t.ex. Acme Marknadsföring",
+    "create": "Skapa arbetsyta",
+    "creating": "Skapar...",
+    "createError": "Vi kunde inte skapa din arbetsyta. Försök igen.",
+    "createAnother": "+ Skapa en ny arbetsyta",
+    "newTitle": "Skapa en ny arbetsyta",
+    "newDescription": "Ge din nya arbetsyta ett namn.",
+    "cancel": "Avbryt"
   },
   "tools": {
     "title": "Välj ett verktyg",

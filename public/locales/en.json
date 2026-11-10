@@ -106,7 +106,18 @@
     "loading": "Loading workspaces...",
     "empty": "No workspaces were found for this account.",
     "continue": "Continue",
-    "number": "Workspace {number}"
+    "number": "Workspace {number}",
+    "createTitle": "Create your first workspace",
+    "createDescription": "You don't have a workspace yet. Give it a name to get started.",
+    "nameLabel": "Workspace name",
+    "namePlaceholder": "e.g. Acme Marketing",
+    "create": "Create workspace",
+    "creating": "Creating...",
+    "createError": "We couldn't create your workspace. Please try again.",
+    "createAnother": "+ Create a new workspace",
+    "newTitle": "Create a new workspace",
+    "newDescription": "Give your new workspace a name.",
+    "cancel": "Cancel"
   },
   "tools": {
     "title": "Choose a tool",
