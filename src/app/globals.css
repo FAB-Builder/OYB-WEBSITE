@@ -161,6 +161,15 @@
     scroll-behavior: smooth;
   }
 
+  /* Tailwind v4 no longer gives buttons a hand cursor, so restore it for
+     everything clickable. Disabled controls keep the normal arrow. */
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]),
+  select:not(:disabled),
+  summary {
+    cursor: pointer;
+  }
+
   body {
     @apply bg-background text-foreground font-sans antialiased;
     font-feature-settings: "cv02", "cv03", "cv04", "cv11";
