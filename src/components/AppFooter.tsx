@@ -22,7 +22,7 @@ const AppFooter = ({ localeOverride }: FooterProps) => {
       <div className="container-wide">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo */}
-          <TrackedLink href={`/${locale}/`} aria-label="OYB – Own Your Brand" tracking={linkEvent('logo', 'footer', `/${locale}/`)}>
+          <TrackedLink href="/workspaces" aria-label="OYB – Own Your Brand" tracking={linkEvent('logo', 'footer', "/workspaces")}>
             <Image src="/logo.svg" alt="OYB – Own Your Brand" width={112} height={48} className="h-12 w-auto" />
           </TrackedLink>
 

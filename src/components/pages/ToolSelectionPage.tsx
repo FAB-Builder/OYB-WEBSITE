@@ -86,8 +86,7 @@ function getRecord(value: unknown): Record<string, unknown> | null {
 function getTenantName(tenant: unknown): string {
   const record = getRecord(tenant);
   const tenantRecord = getRecord(record?.tenant);
-  const nestedTenantRecord = getRecord(tenantRecord?.tenant);
-  const name = nestedTenantRecord?.name;
+  const name = tenantRecord?.name;
   return typeof name === "string" ? name : "";
 }
 
@@ -120,15 +119,16 @@ export default function ToolSelectionPage() {
   return (
     <main className="min-h-screen bg-[#f3f5f0] px-5 py-16 sm:py-20">
       <section className="mx-auto w-full max-w-5xl">
-        <Link href={`/${locale}`} className="text-sm font-semibold tracking-[0.12em] text-primary">OYB</Link>
-        <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <h1 className="text-3xl font-semibold text-[#202820]">{t("tools.title")}</h1>
             <p className="mt-3 text-sm text-muted-foreground">{t("tools.description")}</p>
           </div>
-          <div className="text-sm text-muted-foreground">
-            <span className="font-medium text-foreground">{t("tools.workspace")}:</span>{" "}
-            {workspaceName || t("workspace.title")}{" "}
+          <div className="flex flex-col items-start gap-1 text-sm sm:items-end">
+            <p className="text-muted-foreground">
+              <span className="font-medium text-foreground">{t("tools.workspace")}:</span>{" "}
+              {workspaceName || t("workspace.title")}
+            </p>
             <Link className="font-medium text-primary underline-offset-4 hover:underline" href="/workspaces">
               {t("tools.changeWorkspace")}
             </Link>
