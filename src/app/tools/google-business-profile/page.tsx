@@ -11,7 +11,7 @@ export default function GBPToolRoute() {
       const tenantId = window.localStorage.getItem("tenantId");
 
       setIframeSrc(
-        `https://cs.fabbuilder.com/cs-app/gbp/?tenantId=${tenantId}&theme=polar-green&mode=light&showInApp=true&page=logs&jwt=${jwt}`,
+        `https://cs.fabbuilder.com/cs-app/gbp/?tenantId=${tenantId}&theme=polar-green&mode=light&showInApp=true&page=logs&token=${jwt}`,
       );
     }, 0);
 
