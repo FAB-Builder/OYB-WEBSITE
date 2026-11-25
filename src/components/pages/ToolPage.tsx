@@ -57,6 +57,10 @@ const toolMeta: Record<string, { title: string; description: string }> = {
     title: "AI and Postings",
     description: "Generate and schedule social posts with AI.",
   },
+  "social-cards": {
+    title: "Social Cards",
+    description: "Design share images for social media and link previews.",
+  },
 };
 
 type ToolPageProps = {

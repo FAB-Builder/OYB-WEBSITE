@@ -215,6 +215,10 @@
     "aiPostings": {
       "title": "AI och inlägg",
       "description": "Skapa och schemalägg inlägg i sociala medier med AI."
+    },
+    "socialCards": {
+      "title": "Sociala kort",
+      "description": "Designa delningsbilder för sociala medier och länkförhandsvisningar."
     }
   },
   "toolPage": {
@@ -262,6 +266,9 @@
     },
     "aiPostings": {
       "description": "Ditt AI och inlägg-verktyg är redo att öppnas."
+    },
+    "socialCards": {
+      "description": "Ditt verktyg för sociala kort är redo att öppnas."
     }
   },
   "header": {

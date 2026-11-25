@@ -215,6 +215,10 @@
     "aiPostings": {
       "title": "AI and Postings",
       "description": "Generate and schedule social posts with AI."
+    },
+    "socialCards": {
+      "title": "Social Cards",
+      "description": "Design share images for social media and link previews."
     }
   },
   "toolPage": {
@@ -262,6 +266,9 @@
     },
     "aiPostings": {
       "description": "Your AI and Postings tool is ready to open."
+    },
+    "socialCards": {
+      "description": "Your Social Cards tool is ready to open."
     }
   },
   "header": {

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ArrowRight, CalendarDays, FileText, Filter, Globe, MapPin, Megaphone, MessageCircle, MessageSquare, MonitorPlay, Presentation, Sparkles, ThumbsUp, Video, Workflow } from "lucide-react";
+import { ArrowRight, CalendarDays, FileText, Filter, Globe, IdCard, MapPin, Megaphone, MessageCircle, MessageSquare, MonitorPlay, Presentation, Sparkles, ThumbsUp, Video, Workflow } from "lucide-react";
 import { useLocale, useTranslations } from "@/i18n/client";
 
 const tools = [
@@ -76,6 +76,11 @@ const tools = [
     slug: "ai-postings",
     translationKey: "aiPostings",
     Icon: Sparkles,
+  },
+  {
+    slug: "social-cards",
+    translationKey: "socialCards",
+    Icon: IdCard,
   },
 ] as const;
 
